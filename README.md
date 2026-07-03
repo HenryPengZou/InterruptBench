@@ -1,2 +1,2 @@
 # InterruptBench
-Thanks guys for your interests in our project, we will upload the code in the next a few days, perhaps by July.6~ 
+Thank you for your interest in our project. We will upload the code in the coming days, expected around July 6th.
