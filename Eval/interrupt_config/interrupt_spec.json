@@ -1,0 +1,10 @@
+{
+    "tasks": {
+      "0": {
+        "interrupt_at_action": 5,
+        "update_mode": "append",
+        "update_intent": "stop the task",
+        "extra_steps": 0
+      }
+    }
+  }

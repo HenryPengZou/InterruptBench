@@ -1,0 +1,1157 @@
+[
+    {
+      "task_id": 0,
+      "intent": "What are the top-3 best-selling product in Jan 2023",
+      "transformed_initial_intent": "What are the top best-selling products in Feb 2023 with at least 10 reviews each",
+      "updates_type": ["addition", "modification", "retraction"],
+      "updates": ["I only need the top 3 products", "Sorry, I meant January 2023, not February", "You can ignore the review count requirement"]
+    },
+    {
+      "task_id": 1,
+      "intent": "Tell me the full address of all international airports that are within a driving distance of 50 km to Carnegie Mellon University",
+      "transformed_initial_intent": "Tell me the full address of all airports that are within a driving distance of 30 km to Carnegie Mellon University, excluding private ones",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I specifically need international airports only", "Make that 50 km radius, not 30 km", "Don't worry about excluding private ones, just focus on international airports"]
+    },
+    {
+      "task_id": 2,
+      "intent": "Tell me the the number of reviews that our store received by far that mention term \"best\"",
+      "transformed_initial_intent": "Tell me the number of reviews that our store received this year that mention term \"great\"",
+      "updates_type": ["modification", "retraction", "modification"],
+      "updates": ["Actually the term should be \"best\" not \"great\"", "Don't limit it to this year, I want all reviews received by far", "Just the count is fine"]
+    },
+    {
+      "task_id": 3,
+      "intent": "Compare the difference in time for walking and driving route from Randyland to Carnegie Mellon University",
+      "transformed_initial_intent": "Compare the difference in time for walking and biking route from Randyland to University of Pittsburgh",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need driving time, not biking", "The destination should be Carnegie Mellon University, not Pitt", "Just walking and driving is fine"]
+    },
+    {
+      "task_id": 4,
+      "intent": "List out reviewers, if exist, who mention about good fingerprint resistant",
+      "transformed_initial_intent": "List out reviewers who mention about scratch resistant and gave 5 stars",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["I meant fingerprint resistant, not scratch resistant", "Also include mentions of 'good' fingerprint resistant specifically", "Ignore the star rating requirement"]
+    },
+    {
+      "task_id": 5,
+      "intent": "Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the Showerthoughts forum.",
+      "transformed_initial_intent": "Tell me the count of comments that have received more upvotes than downvotes for the user who made the oldest post on the Showerthoughts forum.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need comments with more downvotes than upvotes, not the other way around", "Look at the latest post, not the oldest", "Just that forum is fine"]
+    },
+    {
+      "task_id": 6,
+      "intent": "I will arrive Pittsburgh Airport soon. Provide the name of a Hilton hotel in the vicinity, if available. Then, tell me the the shortest walking distance to a supermarket from the hotel.",
+      "transformed_initial_intent": "I will arrive Pittsburgh Airport soon. Provide the name of a Marriott hotel in the vicinity. Then, tell me the shortest driving distance to a restaurant from the hotel.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need a Hilton hotel, not Marriott", "I want walking distance, not driving", "I need distance to a supermarket, not restaurant"]
+    },
+    {
+      "task_id": 7,
+      "intent": "Check if the police station in pittsburgh can be reached in one hour by car from gates building at CMU",
+      "transformed_initial_intent": "Check if the fire station in pittsburgh can be reached in 30 minutes by car from gates building at CMU on weekdays only",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I meant police station, not fire station", "Make it one hour, not 30 minutes", "Any day is fine, remove the weekday restriction"]
+    },
+    {
+      "task_id": 8,
+      "intent": "List the top 3 search terms in my store",
+      "transformed_initial_intent": "List the top 5 search terms in my store from last month only",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["Actually I only need top 3, not 5", "Don't limit to last month, I want all time data", "Just the terms themselves are fine"]
+    },
+    {
+      "task_id": 9,
+      "intent": "Check out my todos",
+      "transformed_initial_intent": "Check out my completed todos from this week",
+      "updates_type": ["retraction", "retraction", "addition"],
+      "updates": ["Show all todos, not just completed ones", "Don't filter by this week", "I want to see my full todo list"]
+    },
+    {
+      "task_id": 10,
+      "intent": "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past three days, and the total amount of money I spent.",
+      "transformed_initial_intent": "Today is 6/12/2023. Tell me how many pending orders I have over the past week, and the average order amount.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need fulfilled orders, not pending", "Make it the past three days, not a week", "I want total amount spent, not average"]
+    },
+    {
+      "task_id": 11,
+      "intent": "How long does it take to walk from Carnegie Museum of Art to a library at CMU?",
+      "transformed_initial_intent": "How long does it take to drive from Carnegie Museum of Natural History to a library at CMU?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need walking time, not driving", "I meant Carnegie Museum of Art, not Natural History", "Just the time estimate is fine"]
+    },
+    {
+      "task_id": 12,
+      "intent": "Tell me the closest cafe(s) to CMU Hunt library",
+      "transformed_initial_intent": "Tell me the top 3 rated restaurants to CMU Hunt library within walking distance",
+      "updates_type": ["modification", "retraction", "modification"],
+      "updates": ["I need cafes, not restaurants", "Just give me the closest one(s), no need to filter by walking distance", "Don't worry about ratings, just proximity"]
+    },
+    {
+      "task_id": 13,
+      "intent": "Which customer has completed the fifth most number of orders in the entire history?",
+      "transformed_initial_intent": "Which customer has completed the third most number of orders this year?",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I need the fifth most, not third", "Look at entire history, not just this year", "Just their name is fine"]
+    },
+    {
+      "task_id": 14,
+      "intent": "Among the top 10 post in \"books\" forum, is there any post talks about supporting local book stores? If so, tell me the organizations involved",
+      "transformed_initial_intent": "Among the top 5 posts in \"books\" forum, is there any post about online bookstores? If so, tell me the websites mentioned and their ratings.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["Check top 10 posts, not just 5", "I'm looking for posts about supporting local book stores, not online ones", "I just need the organizations involved, not ratings"]
+    },
+    {
+      "task_id": 15,
+      "intent": "What is the zip code of Chatham University?",
+      "transformed_initial_intent": "What is the phone number and zip code of Carnegie Mellon University?",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I meant Chatham University, not Carnegie Mellon", "I only need the zip code, not phone number", "Just the zip code please"]
+    },
+    {
+      "task_id": 16,
+      "intent": "Given the following locations, ['Massachusetts Institute of Technology', 'Harvard University', 'Boston Logan International Airport'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.",
+      "transformed_initial_intent": "Given the following locations, ['Harvard University', 'Boston Logan International Airport'], what would be the optimal route to minimize total distance? The journey can start anywhere.",
+      "updates_type": ["addition", "modification", "modification"],
+      "updates": ["Add Massachusetts Institute of Technology as the first location", "I want to minimize travel time, not distance", "The journey must begin at the first place listed (MIT)"]
+    },
+    {
+      "task_id": 17,
+      "intent": "What is the total count of Pending reviews amongst all the reviews?",
+      "transformed_initial_intent": "What is the total count of Approved reviews amongst all the reviews from last month?",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I need Pending reviews, not Approved", "Don't filter by last month, I want all reviews", "Just give me the count"]
+    },
+    {
+      "task_id": 18,
+      "intent": "What is the duration required to first walk from Massachusetts Institute of Technology to Harvard University, and then drive to Boston Logan International Airport?",
+      "transformed_initial_intent": "What is the duration required to drive from Massachusetts Institute of Technology to Harvard University, and then drive to Boston Logan International Airport?",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["The first leg should be walking, not driving", "Keep the second leg as driving though", "I need the total combined duration"]
+    },
+    {
+      "task_id": 19,
+      "intent": "From my stay at Homewood Suites Southpointe, what's the estimated driving time to reach PPG Paints Arena?",
+      "transformed_initial_intent": "From my stay at Hampton Inn Southpointe, what's the estimated walking time to reach PPG Paints Arena?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The hotel is Homewood Suites Southpointe, not Hampton Inn", "I need driving time, not walking", "Just the time estimate is fine"]
+    },
+    {
+      "task_id": 20,
+      "intent": "Which US states border New Hampshire?",
+      "transformed_initial_intent": "Which US states and Canadian provinces border Vermont?",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I meant New Hampshire, not Vermont", "Only US states, don't include Canadian provinces", "List all bordering states"]
+    },
+    {
+      "task_id": 21,
+      "intent": "Telll me the grand total of invoice 000000002.",
+      "transformed_initial_intent": "Tell me the subtotal before tax of invoice 000000005 and the customer name.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The invoice number is 000000002, not 000000005", "I need the grand total, not subtotal", "I don't need the customer name"]
+    },
+    {
+      "task_id": 22,
+      "intent": "Tell me the status of my latest order and when will it arrive",
+      "transformed_initial_intent": "Tell me the status of my oldest order and the shipping carrier used",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need info on my latest order, not oldest", "Tell me when it will arrive instead of carrier", "Just status and arrival info please"]
+    },
+    {
+      "task_id": 23,
+      "intent": "Tell me the distance to drive from Carnegie Mellon University to the top computer science school in massachusetts",
+      "transformed_initial_intent": "Tell me the distance to walk from University of Pittsburgh to the top business school in massachusetts",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need driving distance, not walking", "Start from Carnegie Mellon University, not Pitt", "I want the top computer science school, not business school"]
+    },
+    {
+      "task_id": 24,
+      "intent": "Where is the nearest tea cafe to University of Pittsburgh, and what is the walking distance to it?",
+      "transformed_initial_intent": "Where is the nearest coffee shop to Carnegie Mellon University, and what is the driving distance to it?",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need a tea cafe, not coffee shop", "Start from University of Pittsburgh, not CMU", "I want walking distance, not driving"]
+    },
+    {
+      "task_id": 25,
+      "intent": "Display the list of issues in the kkroening/ffmpeg-python repository that have labels related to questions",
+      "transformed_initial_intent": "Display the list of closed issues in the kkroening/ffmpeg-python repository that have labels related to bugs",
+      "updates_type": ["retraction", "modification", "addition"],
+      "updates": ["Don't filter by closed status, show all issues", "I need labels related to questions, not bugs", "Just display the list"]
+    },
+    {
+      "task_id": 26,
+      "intent": "Presents the monthly count of successful orders from Jan to December 2022 in MM:COUNT format",
+      "transformed_initial_intent": "Presents the weekly count of all orders from Jan to June 2022 in a table format",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need monthly counts, not weekly", "Cover the full year Jan to December 2022", "Use MM:COUNT format and only count successful orders"]
+    },
+    {
+      "task_id": 27,
+      "intent": "Show me the name of the customers who have expressed dissatisfaction with Chloe tank",
+      "transformed_initial_intent": "Show me the name and email of the customers who have expressed satisfaction with Chloe shorts",
+      "updates_type": ["modification", "retraction", "modification"],
+      "updates": ["I need customers who expressed dissatisfaction, not satisfaction", "Just the names, no email needed", "The product is Chloe tank, not shorts"]
+    },
+    {
+      "task_id": 28,
+      "intent": "What is the date when I made my first purchase on this site?",
+      "transformed_initial_intent": "What is the date and total amount when I made my most recent purchase on this site?",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I want my first purchase, not most recent", "I only need the date, not the amount", "Just the date is fine"]
+    },
+    {
+      "task_id": 29,
+      "intent": "I have jaw bruxism problem, show me something that could alleviate the problem.",
+      "transformed_initial_intent": "I have TMJ problem, show me the highest rated product that could help with the cheapest price.",
+      "updates_type": ["modification", "retraction", "retraction"],
+      "updates": ["The condition is jaw bruxism specifically", "Don't filter by rating", "Price doesn't matter, just show something helpful"]
+    },
+    {
+      "task_id": 30,
+      "intent": "Tell me the reasons why customers like Circe's products",
+      "transformed_initial_intent": "Tell me the reasons why customers dislike Chloe's products with specific quotes",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I want to know why they like products, not dislike", "The brand is Circe, not Chloe", "No need for specific quotes, just the reasons"]
+    },
+    {
+      "task_id": 31,
+      "intent": "What is the price range of teeth grinding mouth guard in the One Stop Market?",
+      "transformed_initial_intent": "What is the average price of dental retainers in the One Stop Market with 4+ star ratings?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need teeth grinding mouth guard, not dental retainers", "Give me the price range, not average", "Don't filter by ratings"]
+    },
+    {
+      "task_id": 32,
+      "intent": "What brands appear most frequently among the top search terms?",
+      "transformed_initial_intent": "What product categories appear most frequently among the top search terms this month?",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I want brands, not product categories", "Look at all time data, not just this month", "Just the most frequent brand(s)"]
+    },
+    {
+      "task_id": 33,
+      "intent": "What's the total number of items sold in the most recent 7 orders?",
+      "transformed_initial_intent": "What's the total revenue from the most recent 10 orders that were completed?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need number of items sold, not revenue", "Look at the most recent 7 orders, not 10", "Include all recent orders regardless of status"]
+    },
+    {
+      "task_id": 34,
+      "intent": "How many commits did Eric and Kilian make to a11yproject on 1/3/2023?",
+      "transformed_initial_intent": "How many commits did Eric make to a11yproject during the first week of 2023?",
+      "updates_type": ["addition", "modification", "modification"],
+      "updates": ["Include Kilian's commits as well", "The specific date is 1/3/2023, not the whole week", "Just that single date"]
+    },
+    {
+      "task_id": 35,
+      "intent": "What is the estimated driving time between the hometown of Joe Biden and Bridgeport?",
+      "transformed_initial_intent": "What is the estimated driving distance between the hometown of Donald Trump and New Haven?",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need Joe Biden's hometown, not Trump's", "The destination is Bridgeport, not New Haven", "Give me driving time, not distance"]
+    },
+    {
+      "task_id": 36,
+      "intent": "How much I spent on food shopping during from mid Jan to the end Jan 2023",
+      "transformed_initial_intent": "How much I spent on electronics shopping during February 2023 including cancelled orders",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need food category, not electronics", "The period is mid Jan to end Jan 2023, not February", "Don't include cancelled orders"]
+    },
+    {
+      "task_id": 37,
+      "intent": "What is the color configuration of the artifical plants I bought Feb 2023",
+      "transformed_initial_intent": "What is the size configuration of the artificial flowers I bought in March 2023?",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need color, not size", "The product was artificial plants, not flowers", "The purchase was in Feb 2023, not March"]
+    },
+    {
+      "task_id": 38,
+      "intent": "What is the minimum travel time by car from Animal Rescue League of Pittsburgh to Schenley park?",
+      "transformed_initial_intent": "What is the minimum travel time by bike from Pittsburgh Zoo to Schenley park?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need travel time by car, not bike", "Start from Animal Rescue League of Pittsburgh, not the Zoo", "Just the minimum time is fine"]
+    },
+    {
+      "task_id": 39,
+      "intent": "Check out merge requests assigned to me",
+      "transformed_initial_intent": "Check out closed merge requests I created this month",
+      "updates_type": ["modification", "retraction", "retraction"],
+      "updates": ["I need merge requests assigned to me, not ones I created", "Don't filter by closed status", "Remove the time filter"]
+    },
+    {
+      "task_id": 40,
+      "intent": "Show all customers",
+      "transformed_initial_intent": "Show all premium customers from the US only",
+      "updates_type": ["retraction", "retraction", "addition"],
+      "updates": ["Show all customers, not just premium", "Don't filter by country", "I want to see everyone"]
+    },
+    {
+      "task_id": 41,
+      "intent": "I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 40 cards",
+      "transformed_initial_intent": "I have Nintendo Switch game cards, help me find the cheapest storage option to fit 20 cards with good reviews",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need storage for 40 cards, not 20", "Find the best option, not necessarily cheapest", "Don't worry about reviews"]
+    },
+    {
+      "task_id": 42,
+      "intent": "What are the main criticisms of this product? Please extract the relevant sentences.",
+      "transformed_initial_intent": "What are the main praises of this product? Give me a brief summary.",
+      "updates_type": ["modification", "modification", "addition"],
+      "updates": ["I need criticisms, not praises", "Extract the relevant sentences instead of summarizing", "Include all critical feedback"]
+    },
+    {
+      "task_id": 43,
+      "intent": "Tell me the full names of the repositories where I made contributions and they got the most stars?",
+      "transformed_initial_intent": "Tell me the full names of the repositories I own that got the least forks?",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I want repos where I made contributions, not just ones I own", "Look for the most stars, not least forks", "Full names of the repositories please"]
+    },
+    {
+      "task_id": 44,
+      "intent": "Open my latest updated issue that has keyword \"better\" in its title to check if it is closed",
+      "transformed_initial_intent": "Open my oldest created issue that has keyword \"improve\" in its title to check its assignee",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need the latest updated issue, not oldest created", "The keyword is \"better\", not \"improve\"", "I want to check if it's closed, not the assignee"]
+    },
+    {
+      "task_id": 45,
+      "intent": "Open my latest created issue that has homepage content in its title to check if it is closed",
+      "transformed_initial_intent": "Open my latest updated issue that has navigation menu in its title to check its labels",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need latest created issue, not latest updated", "The title should contain 'homepage content', not navigation menu", "Check if it's closed, not the labels"]
+    },
+    {
+      "task_id": 46,
+      "intent": "Tell me the total cost of my latest complete order?",
+      "transformed_initial_intent": "Tell me the shipping cost of my latest pending order?",
+      "updates_type": ["modification", "modification", "addition"],
+      "updates": ["I need the total cost, not just shipping", "Look at complete orders, not pending", "Just my latest complete order"]
+    },
+    {
+      "task_id": 47,
+      "intent": "Compare the payment difference of the last 4 cancelled orders and completed orders",
+      "transformed_initial_intent": "Compare the payment difference of the last 6 pending orders and completed orders including shipping",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need cancelled orders, not pending", "Look at the last 4 orders of each type, not 6", "Just the payment amounts, no need to separate shipping"]
+    },
+    {
+      "task_id": 48,
+      "intent": "Get the date of the most recent canlled order",
+      "transformed_initial_intent": "Get the date and customer name of the most recent completed order",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I need the cancelled order, not completed", "Just the date, no customer name needed", "The most recent one only"]
+    },
+    {
+      "task_id": 49,
+      "intent": "How many commits did kilian make on 3/5/2023?",
+      "transformed_initial_intent": "How many commits did eric make during the week of 3/1/2023?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need kilian's commits, not eric's", "The specific date is 3/5/2023, not the whole week", "Just that single day"]
+    },
+    {
+      "task_id": 50,
+      "intent": "Find the customer name and email with phone number 8015551212",
+      "transformed_initial_intent": "Find the customer name and address with phone number 8015559999",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The phone number is 8015551212", "I need email, not address", "Just name and email please"]
+    },
+    {
+      "task_id": 51,
+      "intent": "What are the key aspects that the customers don't like about Circe ice fleece",
+      "transformed_initial_intent": "What are the key aspects that the customers like about Chloe ice fleece with ratings included",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I want what they don't like, not what they like", "The product is Circe ice fleece, not Chloe", "No need to include ratings"]
+    },
+    {
+      "task_id": 52,
+      "intent": "Show me the walking distance from nearby hotels to Gardner Steel Conference Center, that take at most 5 minutes?",
+      "transformed_initial_intent": "Show me the driving distance from nearby hotels to Gardner Steel Conference Center that take at most 10 minutes?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need walking distance, not driving", "The limit is 5 minutes, not 10", "Just show me the distances within that limit"]
+    },
+    {
+      "task_id": 53,
+      "intent": "I am at CMU Pittsburgh, how long it takes to the nearest USPS postal office with different transportation methods?",
+      "transformed_initial_intent": "I am at University of Pittsburgh, how long it takes to the nearest FedEx office by walking only?",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I'm at CMU Pittsburgh, not Pitt", "I need a USPS postal office, not FedEx", "Show me different transportation methods, not just walking"]
+    },
+    {
+      "task_id": 54,
+      "intent": "What do customers say about brush from sephora",
+      "transformed_initial_intent": "What do customers say about lipstick from MAC with 5-star ratings only",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need info about brushes, not lipstick", "The brand is sephora, not MAC", "Include all reviews, not just 5-star"]
+    },
+    {
+      "task_id": 55,
+      "intent": "What is the price range for products from EYZUTAK?",
+      "transformed_initial_intent": "What is the average price for products from Spigen including shipping?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need EYZUTAK brand, not Spigen", "Give me the price range, not average", "Don't include shipping"]
+    },
+    {
+      "task_id": 56,
+      "intent": "Get the order number of my most recent under delivery order ",
+      "transformed_initial_intent": "Get the order number and tracking info of my most recent completed order",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I need under delivery orders, not completed", "Just the order number, no tracking info", "The most recent one"]
+    },
+    {
+      "task_id": 57,
+      "intent": "Where is the nearest pharmacy from Carnegie Mellon I can walk within 20mins",
+      "transformed_initial_intent": "Where is the nearest hospital from University of Pittsburgh I can drive to within 10mins",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need a pharmacy, not hospital", "Starting from Carnegie Mellon, not Pitt", "Walking within 20 mins, not driving within 10"]
+    },
+    {
+      "task_id": 58,
+      "intent": "I am doing a market survey for one stop market, show me the most expensive product from competative swimwear category",
+      "transformed_initial_intent": "I am doing a market survey for one stop market, show me the cheapest product from athletic shoes category with best ratings",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need the most expensive product, not cheapest", "The category is competitive swimwear, not athletic shoes", "Don't filter by ratings"]
+    },
+    {
+      "task_id": 59,
+      "intent": "Show me the email address of the customer who is the most unhappy with the style of Zoe products",
+      "transformed_initial_intent": "Show me the phone number of the customer who is the most happy with the quality of Zara products",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need email address, not phone number", "Look for most unhappy customers, not happy", "The products are from Zoe and about style, not Zara and quality"]
+    },
+    {
+      "task_id": 60,
+      "intent": "Tell me the coordinates of Apple Store near Pitt in DD format",
+      "transformed_initial_intent": "Tell me the coordinates of Microsoft Store near CMU in DMS format",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need Apple Store, not Microsoft Store", "Near Pitt, not CMU", "Use DD format, not DMS"]
+    },
+    {
+      "task_id": 61,
+      "intent": "What is the phone number of Western Pennsylvania Hospital",
+      "transformed_initial_intent": "What is the address and hours of UPMC Presbyterian Hospital",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need Western Pennsylvania Hospital, not UPMC Presbyterian", "I want the phone number, not address", "No need for hours"]
+    },
+    {
+      "task_id": 62,
+      "intent": "See all public projects",
+      "transformed_initial_intent": "See my private projects from this year only",
+      "updates_type": ["modification", "retraction", "retraction"],
+      "updates": ["I want public projects, not private", "Show all projects, not filtered by ownership", "No time restriction needed"]
+    },
+    {
+      "task_id": 63,
+      "intent": "Get me my RSS feed token",
+      "transformed_initial_intent": "Get me my personal access token and show the expiry date",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I need my RSS feed token, not personal access token", "No need for expiry date", "Just the token itself"]
+    },
+    {
+      "task_id": 64,
+      "intent": "What's the closest national park to Vinalhaven, ME? How long does it take to bike there?",
+      "transformed_initial_intent": "What's the closest state park to Portland, ME? How long does it take to drive there?",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need a national park, not state park", "The starting location is Vinalhaven, ME, not Portland", "I want biking time, not driving"]
+    },
+    {
+      "task_id": 65,
+      "intent": "Show me products under $30 in \"men shoes\" category",
+      "transformed_initial_intent": "Show me products under $50 in \"women shoes\" category with free shipping",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The price limit is $30, not $50", "I need men shoes category, not women", "Don't filter by shipping"]
+    },
+    {
+      "task_id": 66,
+      "intent": "Search for \"switch accessories\"",
+      "transformed_initial_intent": "Search for \"playstation controllers\" with Prime shipping only",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I want to search for \"switch accessories\"", "Remove the shipping filter", "Just run the search"]
+    },
+    {
+      "task_id": 67,
+      "intent": "Look up the most recent models of XBox controllers released between 2020-2021?",
+      "transformed_initial_intent": "Look up the most popular models of PlayStation controllers released between 2018-2019?",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need XBox controllers, not PlayStation", "I want most recent models, not most popular", "The release period is 2020-2021"]
+    },
+    {
+      "task_id": 68,
+      "intent": "Show the least expensive switch card holder with a minimum storage capacity of 15 cards.",
+      "transformed_initial_intent": "Show the best rated switch card holder with a minimum storage capacity of 10 cards and waterproof feature.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I want the least expensive, not best rated", "Minimum capacity should be 15 cards, not 10", "Waterproof feature is not required"]
+    },
+    {
+      "task_id": 69,
+      "intent": "How much time does it take from Pittsburgh to Philadelphia by car?",
+      "transformed_initial_intent": "How much time does it take from Pittsburgh to Harrisburg by train?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The destination is Philadelphia, not Harrisburg", "I need car travel time, not train", "Just driving time please"]
+    },
+    {
+      "task_id": 70,
+      "intent": "Tell me the name of the customer who has the most cancellations in the history",
+      "transformed_initial_intent": "Tell me the email of the customer who has the most returns in the past year",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need the name, not email", "I'm looking for most cancellations, not returns", "Look at entire history, not just past year"]
+    },
+    {
+      "task_id": 71,
+      "intent": "Show me the command to clone the best GAN python implementation with SSH.",
+      "transformed_initial_intent": "Show me the command to clone the most popular CNN python implementation with HTTPS.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need GAN implementation, not CNN", "Look for the best one, not most popular", "I want SSH clone command, not HTTPS"]
+    },
+    {
+      "task_id": 72,
+      "intent": "Show the most recent pending order page",
+      "transformed_initial_intent": "Show the oldest completed order page with invoice details",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need the most recent, not oldest", "Look for pending orders, not completed", "Just the order page, no invoice details needed"]
+    },
+    {
+      "task_id": 73,
+      "intent": "Tell me who has made the most contributions, in terms of number of commits, to the Pytorch GAN project",
+      "transformed_initial_intent": "Tell me who has made the most contributions, in terms of lines of code, to the TensorFlow CNN project",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I want to measure by number of commits, not lines of code", "The project is Pytorch GAN, not TensorFlow CNN", "Just the top contributor"]
+    },
+    {
+      "task_id": 74,
+      "intent": "Which number to call for the customer service?",
+      "transformed_initial_intent": "Which email to contact for technical support and what are the hours?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need a phone number, not email", "For customer service, not technical support", "No need for hours"]
+    },
+    {
+      "task_id": 75,
+      "intent": "List the last names of the top 3 contributors to 2019-nCov repo, ranked by the number of commits?",
+      "transformed_initial_intent": "List the first names of the top 5 contributors to Covid-19 repo, ranked by lines of code?",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need last names, not first names", "The repo is 2019-nCov, and I want top 3, not 5", "Rank by number of commits, not lines of code"]
+    },
+    {
+      "task_id": 76,
+      "intent": "How much refund I should expect from my order canlled in 2022, including shipping fee",
+      "transformed_initial_intent": "How much refund I should expect from my order cancelled in 2023, excluding shipping fee",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["The year should be 2022, not 2023", "Include shipping fee in the refund calculation", "All cancelled orders from that year"]
+    },
+    {
+      "task_id": 77,
+      "intent": "Show me the \"chairs\" listings by ascending price.",
+      "transformed_initial_intent": "Show me the \"tables\" listings by descending rating.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I want to search for chairs, not tables", "Sort by ascending price, not descending rating", "Just price sorting is fine"]
+    },
+    {
+      "task_id": 78,
+      "intent": "How much did I spend on shopping at One Stop Market on November 2022? They gave me a 20% discount on the total amount for orders exceeding $200 in cash",
+      "transformed_initial_intent": "How much did I spend on shopping at One Stop Market on December 2022? Calculate without any discounts",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["The month should be November 2022, not December", "Apply 20% discount on orders exceeding $200 that were paid in cash", "Make sure to account for that discount rule"]
+    },
+    {
+      "task_id": 79,
+      "intent": "Tell me when I last ordered my body butter?",
+      "transformed_initial_intent": "Tell me when I first ordered my body lotion and the price paid?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I want the last order, not first", "The product is body butter, not lotion", "Just the date, no price needed"]
+    },
+    {
+      "task_id": 80,
+      "intent": "How many reviews our shop received in May 2023?",
+      "transformed_initial_intent": "How many 5-star reviews our shop received in June 2023?",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["The month is May 2023, not June", "Count all reviews, not just 5-star", "Just the total count"]
+    },
+    {
+      "task_id": 81,
+      "intent": "Who else have access to my repo gimmiethat.space, show me their usernames",
+      "transformed_initial_intent": "Who else have access to my repo byteblaze.github.io, show me their full names and roles",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The repo is gimmiethat.space", "Just show me their usernames, not full names", "No need for roles"]
+    },
+    {
+      "task_id": 82,
+      "intent": "List products from living room furtniture category by descending price",
+      "transformed_initial_intent": "List products from bedroom furniture category by ascending rating",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need living room furniture, not bedroom", "Sort by descending price, not ascending rating", "Just by price"]
+    },
+    {
+      "task_id": 83,
+      "intent": "Check out merge requests requiring my review",
+      "transformed_initial_intent": "Check out closed merge requests I authored this week",
+      "updates_type": ["modification", "retraction", "retraction"],
+      "updates": ["I need merge requests requiring my review, not ones I authored", "Don't filter by closed status", "No time filter needed"]
+    },
+    {
+      "task_id": 84,
+      "intent": "Show me the order statuses for order number 170 and 189.",
+      "transformed_initial_intent": "Show me the shipping details for order number 170 only.",
+      "updates_type": ["modification", "addition", "modification"],
+      "updates": ["I need order statuses, not shipping details", "Also include order 189", "Just the statuses for both orders"]
+    },
+    {
+      "task_id": 85,
+      "intent": "Measure distance between Carnegie Mellon University and CVS (closet one) by walking",
+      "transformed_initial_intent": "Measure distance between University of Pittsburgh and Walgreens (closest one) by driving",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["Start from Carnegie Mellon University, not Pitt", "The destination is CVS, not Walgreens", "I need walking distance, not driving"]
+    },
+    {
+      "task_id": 86,
+      "intent": "find discounted items.",
+      "transformed_initial_intent": "find new arrivals with free shipping.",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I want discounted items, not new arrivals", "Don't filter by shipping", "Just show me discounts"]
+    },
+    {
+      "task_id": 87,
+      "intent": "Pull up the description page of Carnegie Music Hall on Map",
+      "transformed_initial_intent": "Pull up the directions to Carnegie Library on Map from downtown",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need Carnegie Music Hall, not Carnegie Library", "I want the description page, not directions", "No starting point needed"]
+    },
+    {
+      "task_id": 88,
+      "intent": "Preview the Magento Blank theme for my shop",
+      "transformed_initial_intent": "Apply the Luma theme for my shop permanently",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The theme is Magento Blank, not Luma", "I just want to preview it, not apply permanently", "Preview only please"]
+    },
+    {
+      "task_id": 89,
+      "intent": "Summarize customer reviews for Amazon Echo Dot 3rd generation.",
+      "transformed_initial_intent": "List all customer reviews for Amazon Echo Show 5 with dates.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The product is Echo Dot 3rd generation, not Echo Show 5", "Summarize the reviews instead of listing all", "No dates needed"]
+    },
+    {
+      "task_id": 90,
+      "intent": "Find the hotel around Carnegie Music Hall",
+      "transformed_initial_intent": "Find the restaurants around Carnegie Museum with ratings above 4 stars",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I'm looking for hotels, not restaurants", "The location is Carnegie Music Hall, not Museum", "No rating filter needed"]
+    },
+    {
+      "task_id": 91,
+      "intent": "I am arriving at Carnegie Mellon University. Find the nearby US Citizenship and Immigration Services and the walking distance to the nearest Social Security Administration from US Citizenship and Immigration Services",
+      "transformed_initial_intent": "I am arriving at University of Pittsburgh. Find the nearby DMV and the driving distance to the nearest post office from the DMV",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I'm arriving at Carnegie Mellon University, not Pitt", "I need US Citizenship and Immigration Services, not DMV", "Find walking distance to nearest Social Security Administration, not driving to post office"]
+    },
+    {
+      "task_id": 92,
+      "intent": "I am arriving at Pittsburgh Airport. Show me the name of a Hyatt hotel if there is any nearby. Tell me the names of supermarkets that are within 15mins driving from the hotel",
+      "transformed_initial_intent": "I am arriving at Pittsburgh Airport. Show me the name of a Marriott hotel nearby. Tell me the names of restaurants that are within 10mins walking from the hotel",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need a Hyatt hotel, not Marriott", "I want supermarkets, not restaurants", "Within 15 mins driving, not 10 mins walking"]
+    },
+    {
+      "task_id": 93,
+      "intent": "List the customer names who complain about the quality of EYZUTAK phone cases",
+      "transformed_initial_intent": "List the customer names who praise the design of Spigen phone cases",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I want customers who complain, not praise", "About quality, not design", "The brand is EYZUTAK, not Spigen"]
+    },
+    {
+      "task_id": 94,
+      "intent": "What is the rating of Ugreen lightning to 3.5mm cable. Please round to the nearest whole number",
+      "transformed_initial_intent": "What is the price of Anker lightning to USB-C cable? Show exact decimal values.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need the rating, not price", "The product is Ugreen lightning to 3.5mm cable, not Anker USB-C", "Round to the nearest whole number"]
+    },
+    {
+      "task_id": 95,
+      "intent": "Who gave 4 or 5 stars for phone cases from EYZUTAK",
+      "transformed_initial_intent": "Who gave 1 or 2 stars for phone cases from Spigen?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need 4 or 5 star reviews, not 1 or 2", "The brand is EYZUTAK, not Spigen", "Just the reviewer names"]
+    },
+    {
+      "task_id": 96,
+      "intent": "Post \"Good idea\" for the merge request related to color ulitity in a11yproject.com project",
+      "transformed_initial_intent": "Post \"Looks good\" for the merge request related to font changes in primer/design project",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["The comment should be \"Good idea\"", "The merge request is about color utility", "The project is a11yproject.com"]
+    },
+    {
+      "task_id": 97,
+      "intent": "Change my reddit bio to \"Seeking SDE positions\"",
+      "transformed_initial_intent": "Change my reddit profile picture and bio to \"Looking for PM roles\"",
+      "updates_type": ["retraction", "modification", "addition"],
+      "updates": ["Don't change the profile picture", "The bio should say \"Seeking SDE positions\"", "Just update the bio"]
+    },
+    {
+      "task_id": 98,
+      "intent": "Upvote the newest post in books subreddit",
+      "transformed_initial_intent": "Downvote the top rated post in movies subreddit",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I want to upvote, not downvote", "The subreddit is books, not movies", "The newest post, not top rated"]
+    },
+    {
+      "task_id": 99,
+      "intent": "Go to the merge request on verification functions I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+      "transformed_initial_intent": "Go to the merge request on authentication functions I created, and close it with a comment \"Done\".",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["The merge request is about verification functions, and it's one I have to review, not one I created", "Check if the author responded at the end of the discussion", "Reply \"Thank you\" if he responded, otherwise remind him with @"]
+    },
+    {
+      "task_id": 100,
+      "intent": "Set my gitlab status as Enjoying life.",
+      "transformed_initial_intent": "Set my status on GitHub and also update my profile bio.",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["Actually, it's GitLab, not GitHub.", "The status should be 'Enjoying life'.", "Never mind about updating the bio, just set the status."]
+    },
+    {
+      "task_id": 101,
+      "intent": "Mark all Hollister shirts on sale",
+      "transformed_initial_intent": "Mark all Nike products on sale and add a featured badge to them.",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["The brand should be Hollister, not Nike.", "Only the shirts, not all products.", "Skip the featured badge part."]
+    },
+    {
+      "task_id": 102,
+      "intent": "Find the page of the place in Pennsylvania where a plane crashed during the September 11th attacks on the map.",
+      "transformed_initial_intent": "Find the September 11th crash site in New York on the map and show driving directions from my location.",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I meant Pennsylvania, not New York.", "Don't need the driving directions.", "Make sure to show me the page info for that location."]
+    },
+    {
+      "task_id": 103,
+      "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+      "transformed_initial_intent": "Add a product from my open tabs to my wishlist and apply a discount code.",
+      "updates_type": ["addition", "modification", "retraction"],
+      "updates": ["Pick the one with the lowest per unit price.", "Add it to the shopping cart, not the wishlist.", "Forget about the discount code."]
+    },
+    {
+      "task_id": 104,
+      "intent": "I previously ordered some a make up removal kit during summer 2022 and later cancelled. Can you reorder it for me?",
+      "transformed_initial_intent": "I previously ordered some skincare items during winter 2022. Can you reorder it for me and use express shipping?",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["It was a make up removal kit, not skincare items.", "It was during summer 2022, not winter.", "Don't worry about express shipping, just reorder it normally."]
+    },
+    {
+      "task_id": 105,
+      "intent": "set the homepage URL on my GitLab profile to https://egg.tart.com",
+      "transformed_initial_intent": "Set the homepage URL on my GitHub profile and also update my location info.",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["It's GitLab, not GitHub.", "The URL should be https://egg.tart.com.", "Don't update the location, just the homepage URL."]
+    },
+    {
+      "task_id": 106,
+      "intent": "Disable Ryker Tee Crew Neck from the site, they are facing some quality issues.",
+      "transformed_initial_intent": "Disable Ryker Hoodie from the site and add a notice about restocking soon.",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["It's the Ryker Tee Crew Neck, not the Hoodie.", "Don't add any restocking notice.", "The reason is they're facing quality issues."]
+    },
+    {
+      "task_id": 107,
+      "intent": "Reduce the price of this product by $5",
+      "transformed_initial_intent": "Increase the price of this product and update the description.",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["Actually, reduce the price, don't increase it.", "Reduce it by $5.", "Don't touch the description."]
+    },
+    {
+      "task_id": 108,
+      "intent": "Update the product description of Antonia Racer Tank to highlight the real user positive reviews by quoting the comments",
+      "transformed_initial_intent": "Update the product description of Antonia Sports Bra to highlight features and add sale tags.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["It's the Antonia Racer Tank, not Sports Bra.", "Highlight the real user positive reviews by quoting their comments, not just features.", "Don't add any sale tags."]
+    },
+    {
+      "task_id": 109,
+      "intent": "Add 2 Hawaiian Bamboo Orchid Roots #zc50 - by Discount Hawaiian Gifts to my wish list",
+      "transformed_initial_intent": "Add some Hawaiian plants to my shopping cart and apply a gift wrap option.",
+      "updates_type": ["addition", "modification", "retraction"],
+      "updates": ["Specifically the 2 Hawaiian Bamboo Orchid Roots #zc50 - by Discount Hawaiian Gifts.", "Add it to my wish list, not shopping cart.", "Skip the gift wrap option."]
+    },
+    {
+      "task_id": 110,
+      "intent": "Cancel order 302",
+      "transformed_initial_intent": "Cancel order 305 and issue a full refund.",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["The order number is 302, not 305.", "Don't worry about the refund, just cancel it.", "Make sure the status shows as canceled."]
+    },
+    {
+      "task_id": 111,
+      "intent": "Set up a new, empty repository with the name awesome_llm_reading?",
+      "transformed_initial_intent": "Set up a new repository with the name awesome_nlp_papers and initialize it with a README file.",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["The name should be awesome_llm_reading.", "Don't initialize it with anything, keep it empty.", "It's a new repository under my account."]
+    },
+    {
+      "task_id": 112,
+      "intent": "Vinta wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+      "transformed_initial_intent": "Koush wants to check my dotfile configurations. Please invite him to the repo as a developer.",
+      "updates_type": ["modification", "modification", "addition"],
+      "updates": ["It's Vinta, not Koush.", "Invite as a guest, not developer.", "He just wants to check the configurations."]
+    },
+    {
+      "task_id": 113,
+      "intent": "Change the page title of \"Home Page\" page on my site to \"This is the home page!! Leave here!!\".",
+      "transformed_initial_intent": "Change the page title of \"About Us\" page on my site and update the meta description.",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["It's the \"Home Page\" page, not \"About Us\".", "The new title should be \"This is the home page!! Leave here!!\".", "Don't update the meta description."]
+    },
+    {
+      "task_id": 114,
+      "intent": "Notify Sarah Miller in their most recent pending order with message \"the order is ready to be shipped soon!\"",
+      "transformed_initial_intent": "Notify Sarah Johnson in their oldest pending order with message about shipping delay.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["It's Sarah Miller, not Sarah Johnson.", "The most recent pending order, not the oldest.", "The message should be \"the order is ready to be shipped soon!\""]
+    },
+    {
+      "task_id": 115,
+      "intent": "Update order #307 with the DHL tracking number 24353446464",
+      "transformed_initial_intent": "Update order #309 with the FedEx tracking number and add a delivery note.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The order number is #307.", "It's DHL with tracking number 24353446464.", "Don't add any delivery note."]
+    },
+    {
+      "task_id": 116,
+      "intent": "Make all Aeno capri as out of stock",
+      "transformed_initial_intent": "Make all Aero pants as out of stock and disable them from the site.",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["It's Aeno capri, not Aero pants.", "Don't disable them, just mark as out of stock.", "Make sure all variants are marked."]
+    },
+    {
+      "task_id": 117,
+      "intent": "Buy the highest rated product from the meat substitute category within a budget between 100 and 200.",
+      "transformed_initial_intent": "Buy the cheapest product from the meat substitute category and add to wishlist.",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["I want the highest rated product, not the cheapest.", "Budget should be between 100 and 200 dollars.", "Actually buy it, don't just add to wishlist."]
+    },
+    {
+      "task_id": 118,
+      "intent": "Buy the best rating product from \"Men's shoe\" category with at least 5 reviews and the product is least expensive",
+      "transformed_initial_intent": "Buy the best rating product from \"Women's shoe\" category and apply express delivery.",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["It should be \"Men's shoe\" category.", "Must have at least 5 reviews and pick the least expensive among best rated.", "Don't worry about express delivery."]
+    },
+    {
+      "task_id": 119,
+      "intent": "Add a white desk to my wish list.",
+      "transformed_initial_intent": "Add a black desk to my shopping cart and check for discounts.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I want a white desk, not black.", "Add it to my wish list, not shopping cart.", "Don't need to check for discounts."]
+    },
+    {
+      "task_id": 120,
+      "intent": "Add this product to my wishlist",
+      "transformed_initial_intent": "Add this product to my shopping cart and check stock availability.",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["Add it to my wishlist, not shopping cart.", "No need to check stock.", "Just the product from this current page."]
+    },
+    {
+      "task_id": 121,
+      "intent": "Subscribe to the newsletter of OneStopMarket",
+      "transformed_initial_intent": "Subscribe to the newsletter and also enable SMS notifications.",
+      "updates_type": ["retraction", "addition", "modification"],
+      "updates": ["Don't enable SMS notifications.", "It's for OneStopMarket specifically.", "Just the general newsletter subscription."]
+    },
+    {
+      "task_id": 122,
+      "intent": "Star the top eight most stared repos in Gitlab",
+      "transformed_initial_intent": "Star the top five most forked repos in Gitlab and follow their owners.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I want the top eight, not five.", "Most starred repos, not most forked.", "Don't follow the owners, just star the repos."]
+    },
+    {
+      "task_id": 123,
+      "intent": "Draft a refund message via their \"contact us\" form for the phone screen protector I bought March 2023. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don't submit yet",
+      "transformed_initial_intent": "Draft a refund message via their \"contact us\" form for the phone case I bought January 2023 and submit it.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["It was a phone screen protector, not phone case.", "I bought it in March 2023, not January.", "Don't submit yet, I need to review it first. Include order id, reason (broke after three days), and refund amount."]
+    },
+    {
+      "task_id": 124,
+      "intent": "Follow ['Jakub Klinkovský', 'Koushik', 'Vinta Chen'] on Gitlab",
+      "transformed_initial_intent": "Follow Jakub Klinkovský and Koushik on Gitlab and star their top repos.",
+      "updates_type": ["addition", "retraction", "modification"],
+      "updates": ["Also include Vinta Chen in the list.", "Don't star any repos, just follow them.", "Make sure to follow all three on Gitlab."]
+    },
+    {
+      "task_id": 125,
+      "intent": "Modify the address of order #299 to 456 Oak Avenue, New York, NY, 10001",
+      "transformed_initial_intent": "Modify the address of order #301 to 456 Oak Avenue, Boston, MA and add delivery instructions.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The order number is #299.", "The address should be New York, NY, 10001.", "Don't add any delivery instructions."]
+    },
+    {
+      "task_id": 126,
+      "intent": "Add a new color blue to size S and M of Frankie Sweatshirt",
+      "transformed_initial_intent": "Add a new color red to all sizes of Frankie Hoodie.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["The color should be blue, not red.", "It's the Frankie Sweatshirt, not Hoodie.", "Only for size S and M, not all sizes."]
+    },
+    {
+      "task_id": 127,
+      "intent": "create a repository named Do it myself that includes a README file with the links to the most active 8 DIY ideas on DIY subreddit?",
+      "transformed_initial_intent": "Create a repository named DIY Projects that includes a README file with links to 5 trending posts on crafts subreddit.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["Name it 'Do it myself' instead.", "Get links from the DIY subreddit, not crafts.", "Include the most active 8 DIY ideas, not 5 trending posts."]
+    },
+    {
+      "task_id": 128,
+      "intent": "Invite Jakub Klinkovský and Benoît Blanchon as collaborator to gimmiethat.space repo",
+      "transformed_initial_intent": "Invite Jakub Klinkovský as maintainer to dotfiles repo and enable notifications.",
+      "updates_type": ["addition", "modification", "retraction"],
+      "updates": ["Also invite Benoît Blanchon.", "Add them to gimmiethat.space repo as collaborators.", "Don't worry about notifications."]
+    },
+    {
+      "task_id": 129,
+      "intent": "I recently moved, my address is 111 Magnolia Path, Atlanta, GA, 30303, update my information on OneStopShopping accordingly",
+      "transformed_initial_intent": "I recently moved, update my billing address to 111 Oak Street, Miami, FL on OneStopShopping.",
+      "updates_type": ["modification", "addition", "modification"],
+      "updates": ["The address is 111 Magnolia Path, not Oak Street.", "Update both billing and shipping information.", "It's Atlanta, GA, 30303, not Miami, FL."]
+    },
+    {
+      "task_id": 130,
+      "intent": "Add the following users to my GitHub timeline item management extension as maintainer: ['abisubramanya27', 'lahwaacz']",
+      "transformed_initial_intent": "Add abisubramanya27 to my GitHub timeline item management extension as developer and notify them.",
+      "updates_type": ["addition", "modification", "retraction"],
+      "updates": ["Also add lahwaacz.", "They should be maintainers, not developers.", "No need to notify them."]
+    },
+    {
+      "task_id": 131,
+      "intent": "Create a new forum named Cyberpunk, with a description of Welcome to the future, and include ['Games', 'Books', 'Movies', 'Future'] in the sidebar?",
+      "transformed_initial_intent": "Create a new forum named SciFi, with a description of Welcome to the future, and include ['Games', 'Movies'] in the sidebar.",
+      "updates_type": ["modification", "addition", "addition"],
+      "updates": ["Name it Cyberpunk, not SciFi.", "Add 'Books' to the sidebar as well.", "Also include 'Future' in the sidebar."]
+    },
+    {
+      "task_id": 132,
+      "intent": "Open the thread of a trending post on the forum \"machine learning\" and subscribe.",
+      "transformed_initial_intent": "Open the thread of the top post on the forum \"deep learning\" and bookmark it.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["It's the \"machine learning\" forum.", "I want a trending post, not necessarily the top one.", "Subscribe to it, don't just bookmark."]
+    },
+    {
+      "task_id": 133,
+      "intent": "Post my question, \"is car necessary in NYC\", in a subreddit where I'm likely to get an answer",
+      "transformed_initial_intent": "Post my question about public transit in a travel subreddit and tag it as urgent.",
+      "updates_type": ["modification", "addition", "retraction"],
+      "updates": ["The question is specifically \"is car necessary in NYC\".", "Post it where I'm likely to get an answer about NYC.", "Don't tag it as urgent."]
+    },
+    {
+      "task_id": 134,
+      "intent": "Find a subreddit focused on topics related to gaming consoles, and post my question, \"what is the recommended console to buy these days\" there",
+      "transformed_initial_intent": "Find a subreddit focused on PC gaming, and post my question about graphics cards there.",
+      "updates_type": ["modification", "modification", "addition"],
+      "updates": ["I need a subreddit about gaming consoles, not PC gaming.", "My question is \"what is the recommended console to buy these days\".", "Post it in the appropriate console-related subreddit."]
+    },
+    {
+      "task_id": 135,
+      "intent": "Post a review of my recent reading \"big little lies\" in the r/books with my comment \"can't stop it\".",
+      "transformed_initial_intent": "Post a review of my recent reading \"gone girl\" in the r/literature with my comment and add spoiler tags.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The book is \"big little lies\", not \"gone girl\".", "Post in r/books, not r/literature. My comment is \"can't stop it\".", "No need for spoiler tags."]
+    },
+    {
+      "task_id": 136,
+      "intent": "Re-post the image of costume contest in this page to funny subreddit and note \"from /f/pics\"",
+      "transformed_initial_intent": "Re-post the image of halloween party in this page to memes subreddit and add a catchy title.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["It's the costume contest image.", "Post to the funny subreddit with the note \"from /f/pics\".", "Don't need a catchy title, just note the source."]
+    },
+    {
+      "task_id": 137,
+      "intent": "Create a discussion post about \"Iphone 14\" in a relevant subreddit and ask users for their opinions with the simple prompt, \"your opinion\"",
+      "transformed_initial_intent": "Create a discussion post about \"Samsung Galaxy\" in the technology subreddit and ask for detailed reviews.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The topic is \"Iphone 14\", not Samsung Galaxy.", "Post in a relevant iPhone subreddit.", "Just use the simple prompt \"your opinion\", not detailed reviews."]
+    },
+    {
+      "task_id": 138,
+      "intent": "Ask for product recommendations for running shoes within a budget of $100 in r/sports",
+      "transformed_initial_intent": "Ask for product recommendations for hiking boots within a budget of $150 in r/outdoors.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need running shoes, not hiking boots.", "Budget is $100.", "Post in r/sports."]
+    },
+    {
+      "task_id": 139,
+      "intent": "Post a notice on a virtual meetup for Harry Potter enthusiasts on July 8th in the books subreddit",
+      "transformed_initial_intent": "Post a notice on a virtual meetup for Lord of the Rings fans on July 15th in the movies subreddit.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["It's for Harry Potter enthusiasts.", "The date is July 8th.", "Post in the books subreddit."]
+    },
+    {
+      "task_id": 140,
+      "intent": "Post in books subreddit about what could machine learning help the corresponding field.",
+      "transformed_initial_intent": "Post in technology subreddit about AI developments and include relevant links.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["Post in books subreddit.", "The topic is what machine learning could help that field.", "Don't need to include links."]
+    },
+    {
+      "task_id": 141,
+      "intent": "Reply to the post with my comment \"???\"",
+      "transformed_initial_intent": "Reply to the top comment with my comment \"interesting\" and upvote it.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["Reply to the post itself, not a comment.", "My comment should be \"???\".", "Don't need to upvote anything."]
+    },
+    {
+      "task_id": 142,
+      "intent": "Fill the \"contact us\" form in the site for a refund on the speaker I bought, stating that it broke after just three days of use. Also, ensure to include the order number #148 and the product SKU. Don't submit yet, I will check.",
+      "transformed_initial_intent": "Fill the \"contact us\" form for a refund on the headphones I bought, stating that it was defective. Include order number #150 and submit.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["It's the speaker, not headphones, and it broke after three days of use.", "Order number is #148 and include the product SKU.", "Don't submit yet, I will check first."]
+    },
+    {
+      "task_id": 143,
+      "intent": "Submit a merge request for a11yproject.com/redesign branch to be merged into master branch, assign Roshan Jossy as the reviewer",
+      "transformed_initial_intent": "Submit a merge request for a11yproject.com/bugfix branch to be merged into develop branch and assign yourself as reviewer.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["It's the redesign branch, not bugfix.", "Merge into master branch.", "Assign Roshan Jossy as the reviewer."]
+    },
+    {
+      "task_id": 144,
+      "intent": "Gather the titles of Racing Wheel Overdrive for Xbox X reviews with 1 star rating from OneStopShop, and post them in the games subreddit under the title \"real user feedback on Racing Wheel Overdrive for Xbox X\"",
+      "transformed_initial_intent": "Gather the titles of Racing Wheel for PlayStation reviews with 5 star rating from OneStopShop, and post them in the gaming subreddit.",
+      "updates_type": ["modification", "modification", "addition"],
+      "updates": ["It's Racing Wheel Overdrive for Xbox X.", "I want the 1 star reviews, not 5 star.", "Title should be \"real user feedback on Racing Wheel Overdrive for Xbox X\"."]
+    },
+    {
+      "task_id": 145,
+      "intent": "Lookup orders that are canceled",
+      "transformed_initial_intent": "Lookup orders that are pending and export to CSV.",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I need canceled orders, not pending.", "Don't need to export.", "Just filter and show the canceled ones."]
+    },
+    {
+      "task_id": 146,
+      "intent": "Find a GitLab repository related to chatGPT and make a Reddit post linking to it in a relevant subreddit",
+      "transformed_initial_intent": "Find a GitHub repository related to BERT and make a Reddit post in r/technology.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["Search on GitLab, not GitHub.", "Related to chatGPT, not BERT.", "Post in a relevant subreddit for the topic."]
+    },
+    {
+      "task_id": 147,
+      "intent": "Promote auth0/angular-storage to subreddit technology with the description from the repo itself.",
+      "transformed_initial_intent": "Promote auth0/jwt-decode to subreddit programming with a custom description.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["It's auth0/angular-storage repo.", "Post to subreddit technology.", "Use the description from the repo itself."]
+    },
+    {
+      "task_id": 148,
+      "intent": "Draft an email to the shop owner via their contact us function for a coupon as my refund is suppoed to be replaced by a coupon",
+      "transformed_initial_intent": "Draft an email to the shop owner via their contact us function for a refund and request expedited processing.",
+      "updates_type": ["modification", "retraction", "addition"],
+      "updates": ["I'm asking for a coupon, not a refund.", "Don't mention expedited processing.", "Explain that my refund is supposed to be replaced by a coupon."]
+    },
+    {
+      "task_id": 149,
+      "intent": "Today is 3/15/2023, generate a sales order report for last month",
+      "transformed_initial_intent": "Today is 3/15/2023, generate a revenue report for last quarter and email it.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I need a sales order report.", "For last month only (February 2023).", "Don't need to email it."]
+    },
+    {
+      "task_id": 150,
+      "intent": "Create a shipping report from 08/05/2022 to 03/01/2023",
+      "transformed_initial_intent": "Create a sales report from 08/05/2022 to 02/01/2023 and schedule weekly updates.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["It should be a shipping report.", "End date is 03/01/2023.", "Don't schedule any updates."]
+    },
+    {
+      "task_id": 151,
+      "intent": "Thumbs down the top 1 post ever in gadgets.",
+      "transformed_initial_intent": "Thumbs up the top 3 posts ever in technology and save them.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["Thumbs down, not up.", "Just the top 1 post in gadgets subreddit.", "Don't save them."]
+    },
+    {
+      "task_id": 152,
+      "intent": "Like all submissions created by CameronKelsey in subreddit earthporn",
+      "transformed_initial_intent": "Like all submissions created by NaturePhotographer in subreddit pics and follow them.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["The user is CameronKelsey.", "In subreddit earthporn.", "Don't follow them, just like the submissions."]
+    },
+    {
+      "task_id": 153,
+      "intent": "DisLike all submissions created by AdamCannon in subreddit UpliftingNews",
+      "transformed_initial_intent": "Like all submissions created by AdamCannon in subreddit news and leave comments.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["I want to dislike, not like.", "In subreddit UpliftingNews.", "Don't leave any comments."]
+    },
+    {
+      "task_id": 154,
+      "intent": "Edit my post on Star Trek Starfleet Academy series by adding a line to the body that says \"Every watch makes me feel like a kid again\"",
+      "transformed_initial_intent": "Edit my post on Star Wars series by adding a line to the title and pin it.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["It's the Star Trek Starfleet Academy series post.", "Add \"Every watch makes me feel like a kid again\" to the body, not title.", "Don't pin it."]
+    },
+    {
+      "task_id": 155,
+      "intent": "Show me the way from Carnegie Mellon University to the home stadium of Boston home NBA team ",
+      "transformed_initial_intent": "Show me the way from University of Pittsburgh to the home stadium of Boston home NFL team via public transit.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["Start from Carnegie Mellon University.", "It's the Boston home NBA team stadium.", "Just show driving directions, not public transit."]
+    },
+    {
+      "task_id": 156,
+      "intent": "Create a new public project \"awesome-llms\" and add primer, convexegg, abishek as members",
+      "transformed_initial_intent": "Create a new private project \"llm-research\" and add primer, convexegg as members.",
+      "updates_type": ["modification", "modification", "addition"],
+      "updates": ["Make it public, not private.", "Name it \"awesome-llms\".", "Also add abishek as a member."]
+    },
+    {
+      "task_id": 157,
+      "intent": "Start a private project web_agent_android_xl with Android template and add primer, convexegg, abishek as members",
+      "transformed_initial_intent": "Start a public project web_agent_ios with iOS template and add primer as member.",
+      "updates_type": ["modification", "modification", "addition"],
+      "updates": ["Make it private with name web_agent_android_xl.", "Use Android template.", "Also add convexegg and abishek as members."]
+    },
+    {
+      "task_id": 158,
+      "intent": "Show me the route and driving time from Allentown, PA to the city where my E-commerce customer Amanda Kim lives",
+      "transformed_initial_intent": "Show me the route from Philadelphia, PA to the city where my E-commerce customer Amanda Smith lives via walking.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["Start from Allentown, PA.", "The customer is Amanda Kim.", "Show driving route and time."]
+    },
+    {
+      "task_id": 159,
+      "intent": "Get directions from Carnegie Music Hall in NYC to Carnegie Mellon University using driving options.",
+      "transformed_initial_intent": "Get directions from Lincoln Center in NYC to Carnegie Mellon University using public transit.",
+      "updates_type": ["modification", "modification", "addition"],
+      "updates": ["Start from Carnegie Music Hall, not Lincoln Center.", "Use driving options.", "The destination is Carnegie Mellon University."]
+    },
+    {
+      "task_id": 160,
+      "intent": "5 blue Cronus yoga pants with size 33 arrived, update the stock",
+      "transformed_initial_intent": "10 black Cronus yoga pants arrived, update the stock and notify customers.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["It's 5 units, not 10, and they're blue.", "Size 33 specifically.", "Don't notify customers, just update stock."]
+    },
+    {
+      "task_id": 161,
+      "intent": "Make a folder named car on the gimmiethat.space repo and include a file called urls.txt that consists of the links to the 5 most recent posts from cars.",
+      "transformed_initial_intent": "Make a folder named auto on the dotfiles repo and include a file called links.txt with the top posts from automobiles subreddit.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["The folder should be named 'car' on gimmiethat.space repo.", "File should be urls.txt with links to 5 most recent posts.", "From the cars subreddit."]
+    },
+    {
+      "task_id": 162,
+      "intent": "Change the delivery address for my most recent order to 77 Massachusetts Ave, Cambridge, MA.",
+      "transformed_initial_intent": "Change the billing address for my oldest order to 77 Massachusetts Ave, Boston, MA.",
+      "updates_type": ["modification", "modification", "modification"],
+      "updates": ["I need to change the delivery address, not billing.", "For my most recent order.", "Address is Cambridge, MA, not Boston."]
+    },
+    {
+      "task_id": 163,
+      "intent": "Create an issue in a11yproject repo with title \"404 for many URLs\". Assign the issue to myself. Set due date to be 2030-1-3",
+      "transformed_initial_intent": "Create an issue in a11yproject repo with title \"Broken links\" and assign to the project owner.",
+      "updates_type": ["modification", "modification", "addition"],
+      "updates": ["Title should be \"404 for many URLs\".", "Assign the issue to myself.", "Set due date to 2030-1-3."]
+    },
+    {
+      "task_id": 164,
+      "intent": "Assign the issue regarding 404 in a11yproject to myself.",
+      "transformed_initial_intent": "Assign the issue regarding accessibility in a11yproject to the team lead and add priority label.",
+      "updates_type": ["modification", "modification", "retraction"],
+      "updates": ["It's the issue regarding 404.", "Assign it to myself.", "Don't add any labels."]
+    }
+]

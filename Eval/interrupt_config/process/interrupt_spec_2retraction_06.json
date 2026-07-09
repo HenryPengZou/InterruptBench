@@ -1,0 +1,994 @@
+{
+  "tasks": {
+    "0": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't limit to just the clothing category - include all product categories\nAlso remove the price filter, include products at any price point",
+      "extra_steps": 0
+    },
+    "1": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't worry about whether they have direct flights to New York\nAnd ignore the operating hours requirement too",
+      "extra_steps": 0
+    },
+    "2": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include reviews with any star rating, not just 5-star\nAnd don't limit to 2023 - count reviews from all time",
+      "extra_steps": 0
+    },
+    "3": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, highways are fine to include in the driving route\nAnd just use regular traffic conditions, not rush hour",
+      "extra_steps": 0
+    },
+    "4": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include reviewers regardless of their star rating\nAnd don't filter by verified purchase status either",
+      "extra_steps": 0
+    },
+    "5": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include comments from any time period, not just this month\nAnd don't filter by comment length",
+      "extra_steps": 0
+    },
+    "6": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, the hotel doesn't need to have a fitness center\nAnd any supermarket is fine, doesn't have to be organic",
+      "extra_steps": 0
+    },
+    "7": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any police station in Pittsburgh is fine, not specifically downtown\nAnd toll roads are okay to use",
+      "extra_steps": 0
+    },
+    "8": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include search terms from all categories, not just electronics\nAnd include all search terms regardless of whether they resulted in purchases",
+      "extra_steps": 0
+    },
+    "9": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, show todos with any due date, not just this week\nAnd include all priority levels, not just high priority",
+      "extra_steps": 0
+    },
+    "10": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include orders from all categories, not just electronics\nAnd include orders with any shipping method, not just free shipping",
+      "extra_steps": 0
+    },
+    "11": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any walking path is fine, doesn't have to be only paved\nAnd stairs are okay too",
+      "extra_steps": 0
+    },
+    "12": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by vegan options - any cafe is fine\nAnd WiFi availability doesn't matter either",
+      "extra_steps": 0
+    },
+    "13": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include orders of any value, not just over $100\nAnd consider orders from all years, not just 2022",
+      "extra_steps": 0
+    },
+    "14": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by year - include posts from any time\nAnd don't worry about the upvote count requirement",
+      "extra_steps": 0
+    },
+    "15": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just any campus location is fine, not specifically the main campus\nAnd just the 5-digit zip code is enough, no need for the +4 extension",
+      "extra_steps": 0
+    },
+    "16": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, consider car travel instead of bicycle\nAnd highways can be included in the route",
+      "extra_steps": 0
+    },
+    "17": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include reviews from all time periods, not just the last 6 months\nAnd include reviews for products at any price point",
+      "extra_steps": 0
+    },
+    "18": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any walking route is fine, doesn't have to be via Charles River\nAnd tolls are okay for the driving portion",
+      "extra_steps": 0
+    },
+    "19": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use normal traffic conditions, not rush hour\nAnd highways are fine to use",
+      "extra_steps": 0
+    },
+    "20": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include any bordering states regardless of border type\nAnd don't worry about the minimum border length requirement",
+      "extra_steps": 0
+    },
+    "21": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include tax in the total\nAnd show the final amount after any discounts",
+      "extra_steps": 0
+    },
+    "22": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, check my latest order regardless of when it was placed\nAnd regardless of the order amount",
+      "extra_steps": 0
+    },
+    "23": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, toll roads are fine to include\nAnd highways can be used too",
+      "extra_steps": 0
+    },
+    "24": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, outdoor seating isn't required\nAnd don't worry about the operating hours",
+      "extra_steps": 0
+    },
+    "25": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include issues from any time period, not just 2023\nAnd include issues from any contributor regardless of their commit count",
+      "extra_steps": 0
+    },
+    "26": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include orders of any amount, not just over $100\nAnd include orders from all customers, not just returning ones",
+      "extra_steps": 0
+    },
+    "27": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include any dissatisfied reviews regardless of star rating\nAnd include reviews from all time, not just the last year",
+      "extra_steps": 0
+    },
+    "28": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include my first purchase regardless of delivery status\nAnd regardless of the order amount",
+      "extra_steps": 0
+    },
+    "29": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't limit by price - show me options at any price point\nAnd include products with any rating",
+      "extra_steps": 0
+    },
+    "30": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include feedback from reviews with any star rating\nAnd include reviews from any customer, not just verified purchasers",
+      "extra_steps": 0
+    },
+    "31": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include products with any rating\nAnd include products with any shipping option",
+      "extra_steps": 0
+    },
+    "32": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include search terms from all categories\nAnd include searches from all time, not just this month",
+      "extra_steps": 0
+    },
+    "33": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include orders with any status, not just completed\nAnd include orders of any value",
+      "extra_steps": 0
+    },
+    "34": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include commits regardless of how many files were modified\nAnd include commits to any branch, not just main",
+      "extra_steps": 0
+    },
+    "35": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, highways can be used in the route\nAnd just use standard traffic conditions",
+      "extra_steps": 0
+    },
+    "36": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include orders with any status\nAnd include items at any price point",
+      "extra_steps": 0
+    },
+    "37": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include the plants regardless of price\nAnd regardless of product rating",
+      "extra_steps": 0
+    },
+    "38": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, toll roads are fine to use\nAnd just use normal traffic conditions, not rush hour",
+      "extra_steps": 0
+    },
+    "39": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, show all merge requests regardless of urgency level\nAnd include merge requests from any time, not just this week",
+      "extra_steps": 0
+    },
+    "40": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include all customers regardless of purchase history\nAnd include customers who registered at any time",
+      "extra_steps": 0
+    },
+    "41": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't limit by price\nAnd include options with any rating",
+      "extra_steps": 0
+    },
+    "42": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include feedback from any reviewer, not just verified purchasers\nAnd include criticisms from reviews with any star rating",
+      "extra_steps": 0
+    },
+    "43": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include contributions from any year, not just 2023\nAnd include repos regardless of how many commits I made",
+      "extra_steps": 0
+    },
+    "44": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include issues regardless of who created them\nAnd don't filter by priority label",
+      "extra_steps": 0
+    },
+    "45": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by label type\nAnd include issues regardless of comment count",
+      "extra_steps": 0
+    },
+    "46": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, check my latest complete order regardless of item count\nAnd regardless of shipping type",
+      "extra_steps": 0
+    },
+    "47": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include orders from any year\nAnd include orders of any value",
+      "extra_steps": 0
+    },
+    "48": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include cancelled orders of any value\nAnd include orders from any product category",
+      "extra_steps": 0
+    },
+    "49": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include commits to any branch\nAnd include commits regardless of how many files were modified",
+      "extra_steps": 0
+    },
+    "50": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include the customer regardless of purchase history\nAnd regardless of registration date",
+      "extra_steps": 0
+    },
+    "51": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include negative feedback from reviews with any star rating\nAnd from any customer, not just verified purchasers",
+      "extra_steps": 0
+    },
+    "52": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include hotels of any star rating\nAnd don't filter by parking availability",
+      "extra_steps": 0
+    },
+    "53": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any USPS postal office is fine regardless of Saturday hours\nAnd passport services aren't required",
+      "extra_steps": 0
+    },
+    "54": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include reviews with any star rating\nAnd include reviews from any time period",
+      "extra_steps": 0
+    },
+    "55": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include products with any rating\nAnd include products regardless of stock status",
+      "extra_steps": 0
+    },
+    "56": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include orders placed at any time\nAnd include orders with any shipping method",
+      "extra_steps": 0
+    },
+    "57": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any pharmacy is fine regardless of operating hours\nAnd drive-through isn't required",
+      "extra_steps": 0
+    },
+    "58": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include products with any rating\nAnd include products regardless of stock availability",
+      "extra_steps": 0
+    },
+    "59": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include reviews from any customer, not just verified purchasers\nAnd include reviews from any time period",
+      "extra_steps": 0
+    },
+    "60": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any Apple Store near Pitt is fine regardless of Genius Bar availability\nAnd don't worry about Sunday hours",
+      "extra_steps": 0
+    },
+    "61": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just the main hospital phone number is fine, not specifically emergency department\nAnd availability hours don't matter",
+      "extra_steps": 0
+    },
+    "62": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, show projects regardless of star count\nAnd include projects with any last update date",
+      "extra_steps": 0
+    },
+    "63": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just get my general RSS feed token, not specific to projects\nAnd it doesn't matter who created the projects",
+      "extra_steps": 0
+    },
+    "64": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any national park is fine regardless of camping facilities\nAnd don't worry about whether it's open year-round",
+      "extra_steps": 0
+    },
+    "65": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include products with any rating\nAnd include products with any shipping option",
+      "extra_steps": 0
+    },
+    "66": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include results with any rating\nAnd include results at any price point",
+      "extra_steps": 0
+    },
+    "67": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include both wired and wireless controllers\nAnd include controllers with any rating",
+      "extra_steps": 0
+    },
+    "68": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include holders with any rating\nAnd waterproof feature isn't required",
+      "extra_steps": 0
+    },
+    "69": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, toll roads are fine to use\nAnd just use standard traffic conditions",
+      "extra_steps": 0
+    },
+    "70": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include cancellations from all years, not just 2022\nAnd include cancellations of any order value",
+      "extra_steps": 0
+    },
+    "71": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by last update date\nAnd include repos regardless of star count",
+      "extra_steps": 0
+    },
+    "72": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include pending orders of any value\nAnd include orders from any time period",
+      "extra_steps": 0
+    },
+    "73": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include commits to any branch\nAnd include commits from all time, not just 2022",
+      "extra_steps": 0
+    },
+    "74": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any customer service number is fine regardless of availability hours\nAnd language support doesn't matter",
+      "extra_steps": 0
+    },
+    "75": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include commits from all years, not just 2020\nAnd include commits to any branch",
+      "extra_steps": 0
+    },
+    "76": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include cancelled orders from all categories, not just electronics\nAnd include orders of any value",
+      "extra_steps": 0
+    },
+    "77": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include chairs with any rating\nAnd include items regardless of stock status",
+      "extra_steps": 0
+    },
+    "78": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include orders with any status, not just completed\nAnd include orders from all categories, not just electronics",
+      "extra_steps": 0
+    },
+    "79": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include orders with any status\nAnd include orders of any amount",
+      "extra_steps": 0
+    },
+    "80": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include reviews with any star rating\nAnd include reviews from any customer, not just verified purchasers",
+      "extra_steps": 0
+    },
+    "81": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include users with any permission level\nAnd include users regardless of their activity",
+      "extra_steps": 0
+    },
+    "82": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include products with any rating\nAnd include products regardless of stock availability",
+      "extra_steps": 0
+    },
+    "83": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include merge requests regardless of urgency\nAnd include merge requests from any time period",
+      "extra_steps": 0
+    },
+    "84": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just the order statuses are fine, tracking info isn't needed\nAnd delivery date information isn't required either",
+      "extra_steps": 0
+    },
+    "85": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any CVS is fine regardless of pharmacy services\nAnd operating hours don't matter",
+      "extra_steps": 0
+    },
+    "86": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include items with any discount percentage\nAnd include items with any rating",
+      "extra_steps": 0
+    },
+    "87": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just the basic description page is fine, parking info isn't needed\nAnd accessibility information isn't required",
+      "extra_steps": 0
+    },
+    "88": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, regular view is fine, not specifically mobile\nAnd standard mode is okay, dark mode isn't required",
+      "extra_steps": 0
+    },
+    "89": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include reviews from any customer, not just verified purchasers\nAnd include reviews with any star rating",
+      "extra_steps": 0
+    },
+    "90": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include hotels of any star rating\nAnd parking availability doesn't matter",
+      "extra_steps": 0
+    },
+    "91": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, any USCIS office is fine regardless of biometrics services\nAnd any Social Security Administration office is fine regardless of weekend hours",
+      "extra_steps": 0
+    },
+    "92": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, the hotel doesn't need to have a pool\nAnd any supermarket is fine, doesn't have to be organic",
+      "extra_steps": 0
+    },
+    "93": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include complaints from reviews with any star rating\nAnd include reviews from any customer, not just verified purchasers",
+      "extra_steps": 0
+    },
+    "94": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include ratings from all reviews, not just verified purchases\nAnd include reviews from all time, not just 2023",
+      "extra_steps": 0
+    },
+    "95": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include reviews from any customer, not just verified purchasers\nAnd include reviews from any time period",
+      "extra_steps": 0
+    },
+    "96": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, post on the merge request regardless of its status\nAnd regardless of when it was created",
+      "extra_steps": 0
+    },
+    "97": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, make the bio visible to everyone, not just specific users\nAnd don't filter viewers by account age",
+      "extra_steps": 0
+    },
+    "98": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, upvote the newest post regardless of comment count\nAnd regardless of who posted it",
+      "extra_steps": 0
+    },
+    "99": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, find the merge request regardless of when it was created\nAnd regardless of comment count",
+      "extra_steps": 0
+    },
+    "100": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use 'Enjoying life' without the '- on vacation' part.\nAnd don't change my availability to busy, just set the status message.",
+      "extra_steps": 0
+    },
+    "101": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include all sizes, not just Medium.\nAnd include all categories, not just Women's.",
+      "extra_steps": 0
+    },
+    "102": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just find the location page, no need to show directions.\nAnd forget about the Philadelphia part.",
+      "extra_steps": 0
+    },
+    "103": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by rating, just go by lowest per unit price.\nAnd don't worry about stock status either.",
+      "extra_steps": 0
+    },
+    "104": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just reorder the same quantity as before, not 3.\nAnd use standard shipping, not expedited.",
+      "extra_steps": 0
+    },
+    "105": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use https://egg.tart.com without the /blog part.\nAnd don't update my bio, just change the homepage URL.",
+      "extra_steps": 0
+    },
+    "106": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, disable all sizes, not just Large.\nAnd disable all colors, not just black.",
+      "extra_steps": 0
+    },
+    "107": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, only reduce by $5, not $10.\nAnd don't mark it as a special promotion, just reduce the price.",
+      "extra_steps": 0
+    },
+    "108": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include all positive reviews, not just 5-star ones.\nAnd don't add any badge, just update the description with the quotes.",
+      "extra_steps": 0
+    },
+    "109": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't add any priority tag, just add it normally.\nAnd skip the price drop alert.",
+      "extra_steps": 0
+    },
+    "110": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just cancel the order, don't process any refund yet.\nAnd no store credit needed.",
+      "extra_steps": 0
+    },
+    "111": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, make it public, not private.\nAnd don't initialize with a README, keep it completely empty.",
+      "extra_steps": 0
+    },
+    "112": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, invite him as a guest, not a developer.\nAnd he doesn't need push access.",
+      "extra_steps": 0
+    },
+    "113": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use \"This is the home page!! Leave here!!\" without the \"Welcome to Our Store - \" prefix.\nAnd don't update the meta description, just the title.",
+      "extra_steps": 0
+    },
+    "114": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use the message \"the order is ready to be shipped soon!\" without the delivery estimate.\nAnd don't send a copy to anyone else.",
+      "extra_steps": 0
+    },
+    "115": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just add the tracking number, don't send a customer notification.\nAnd skip the estimated delivery date.",
+      "extra_steps": 0
+    },
+    "116": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, mark all sizes as out of stock, not just size 32.\nAnd include all colors, not just blue.",
+      "extra_steps": 0
+    },
+    "117": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by organic, just highest rated within budget.\nAnd ignore shipping costs, don't require free shipping.",
+      "extra_steps": 0
+    },
+    "118": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by size, I'll pick the size later.\nAnd don't limit to black color, any color is fine.",
+      "extra_steps": 0
+    },
+    "119": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by price, any white desk is fine.\nAnd don't worry about the rating either.",
+      "extra_steps": 0
+    },
+    "120": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't set any sale reminder.\nAnd skip the note, just add it to the wishlist.",
+      "extra_steps": 0
+    },
+    "121": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, subscribe to the general newsletter, not just weekly deals.\nAnd don't opt-in for SMS, just the email newsletter.",
+      "extra_steps": 0
+    },
+    "122": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by programming language.\nAnd ignore when they were last updated.",
+      "extra_steps": 0
+    },
+    "123": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't request expedited processing, standard is fine.\nAnd request a refund, not a replacement.",
+      "extra_steps": 0
+    },
+    "124": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just follow them, don't enable activity notifications.\nAnd don't star their repos, only follow the accounts.",
+      "extra_steps": 0
+    },
+    "125": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use 456 Oak Avenue, New York, NY, 10001 without the apartment number.\nAnd don't add any delivery instructions.",
+      "extra_steps": 0
+    },
+    "126": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, only add blue, not green.\nAnd only for sizes S and M, not L.",
+      "extra_steps": 0
+    },
+    "127": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, make it a public repository, not private.\nAnd don't add a description, just include the README with links.",
+      "extra_steps": 0
+    },
+    "128": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, invite them as regular collaborators, not maintainers.\nAnd they don't need special merge rights.",
+      "extra_steps": 0
+    },
+    "129": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use 111 Magnolia Path, Atlanta, GA, 30303 without the Suite 200.\nAnd set it as my regular home address, not business.",
+      "extra_steps": 0
+    },
+    "130": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, add them as maintainer, not owner.\nAnd they don't need admin access.",
+      "extra_steps": 0
+    },
+    "131": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, make it a public forum, not private.\nAnd don't require membership approval.",
+      "extra_steps": 0
+    },
+    "132": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just any trending post, not limited to this week.\nAnd just subscribe without email notifications.",
+      "extra_steps": 0
+    },
+    "133": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just ask \"is car necessary in NYC\" without the \"for daily commuting\" part.\nAnd don't tag it as urgent.",
+      "extra_steps": 0
+    },
+    "134": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just ask \"what is the recommended console to buy these days\" without the price limit.\nAnd don't add a poll, just a regular text post.",
+      "extra_steps": 0
+    },
+    "135": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use \"can't stop it\" without the rating.\nAnd don't add spoiler tags.",
+      "extra_steps": 0
+    },
+    "136": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just note \"from /f/pics\" without the photographer credit.\nAnd don't mark it as OC.",
+      "extra_steps": 0
+    },
+    "137": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just about \"Iphone 14\", not specifically Pro Max.\nAnd just use the simple prompt \"your opinion\" without specifying battery life and camera.",
+      "extra_steps": 0
+    },
+    "138": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just ask for running shoes in general, not specifically for marathon training.\nAnd don't require waterproof.",
+      "extra_steps": 0
+    },
+    "139": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't specify the time, just July 8th.\nAnd don't try to pin the post.",
+      "extra_steps": 0
+    },
+    "140": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just mention machine learning in general, not specifically GPT-4.\nAnd don't limit to publishing industry examples.",
+      "extra_steps": 0
+    },
+    "141": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just comment \"???\" without adding anything else.\nAnd don't upvote the post.",
+      "extra_steps": 0
+    },
+    "142": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't request expedited processing.\nAnd request a regular refund, not store credit.",
+      "extra_steps": 0
+    },
+    "143": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't enable squash commits.\nAnd don't set it to auto-merge, just regular merge request.",
+      "extra_steps": 0
+    },
+    "144": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, only gather 1 star reviews, not 2 star.\nAnd use the title \"real user feedback on Racing Wheel Overdrive for Xbox X\" without the \"AVOID!\" part.",
+      "extra_steps": 0
+    },
+    "145": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, show all canceled orders, not just from last 30 days.\nAnd just display them, don't export to CSV.",
+      "extra_steps": 0
+    },
+    "146": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't filter by star count.\nAnd just make a simple post, no detailed description needed.",
+      "extra_steps": 0
+    },
+    "147": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use the description, don't include installation instructions.\nAnd don't tag it as a tutorial.",
+      "extra_steps": 0
+    },
+    "148": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't specify the coupon percentage, just request a coupon.\nAnd don't request expedited processing.",
+      "extra_steps": 0
+    },
+    "149": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include all orders, not just completed ones.\nAnd don't group by category, just the standard report.",
+      "extra_steps": 0
+    },
+    "150": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include all shipping carriers, not just DHL.\nAnd just generate the report on screen, don't export to PDF.",
+      "extra_steps": 0
+    },
+    "151": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just thumbs down, don't leave a comment.\nAnd no explanation needed.",
+      "extra_steps": 0
+    },
+    "152": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, like all their submissions regardless of when posted.\nAnd don't follow the user, just like the posts.",
+      "extra_steps": 0
+    },
+    "153": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just dislike them, don't report as spam.\nAnd no other action needed.",
+      "extra_steps": 0
+    },
+    "154": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just add \"Every watch makes me feel like a kid again\" without the recommendation part.\nAnd don't change the title.",
+      "extra_steps": 0
+    },
+    "155": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't avoid tolls, regular route is fine.\nAnd highways are okay too.",
+      "extra_steps": 0
+    },
+    "156": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, create it empty without a README.\nAnd add them as regular members, not maintainers.",
+      "extra_steps": 0
+    },
+    "157": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use the basic Android template without CI/CD.\nAnd add them as regular members, not developers with special rights.",
+      "extra_steps": 0
+    },
+    "158": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, show the regular route including highways.\nAnd just show the route, don't need gas stations.",
+      "extra_steps": 0
+    },
+    "159": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, don't avoid tolls, regular route is fine.\nAnd no arrival time needed.",
+      "extra_steps": 0
+    },
+    "160": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just update the stock count.\nAnd don't set any low stock alert.",
+      "extra_steps": 0
+    },
+    "161": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, include all posts, not just ones with images.\nAnd get the most recent posts, not sorted by upvotes.",
+      "extra_steps": 0
+    },
+    "162": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use 77 Massachusetts Ave, Cambridge, MA without the room number.\nAnd no signature required.",
+      "extra_steps": 0
+    },
+    "163": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just use the title \"404 for many URLs\" without the Critical label.\nAnd assign only to myself, no other assignee needed, and no reminder.",
+      "extra_steps": 0
+    },
+    "164": {
+      "interrupt_at_pct": "60%",
+      "update_mode": "append",
+      "update_intent": "Actually, just assign it to myself, don't change the priority.\nAnd don't add any milestone.",
+      "extra_steps": 0
+    }
+  }
+}

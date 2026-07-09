@@ -1,0 +1,994 @@
+{
+  "tasks": {
+    "0": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I only need the top 3\nFor January 2023 specifically",
+      "extra_steps": 0
+    },
+    "1": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I need ones within driving distance, not straight line\nThe radius should be 50 km",
+      "extra_steps": 0
+    },
+    "2": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only count ones that mention a specific term\nThe term is \"best\"",
+      "extra_steps": 0
+    },
+    "3": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I want to compare walking vs driving\nStarting from Randyland",
+      "extra_steps": 0
+    },
+    "4": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only those who mention fingerprint resistance\nSpecifically good fingerprint resistant",
+      "extra_steps": 0
+    },
+    "5": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only count comments with negative karma\nI mean ones with more downvotes than upvotes",
+      "extra_steps": 0
+    },
+    "6": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It needs to be a Hilton hotel specifically\nI need the shortest walking distance to the supermarket",
+      "extra_steps": 0
+    },
+    "7": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I'll be driving by car\nI need to know if it's reachable within one hour",
+      "extra_steps": 0
+    },
+    "8": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Just the top ones please\nOnly need 3",
+      "extra_steps": 0
+    },
+    "9": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I meant my todo list\nShow all of them",
+      "extra_steps": 0
+    },
+    "10": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only count fulfilled orders from the past three days\nToday's date is 6/12/2023",
+      "extra_steps": 0
+    },
+    "11": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I'll be walking\nTo a library at CMU specifically",
+      "extra_steps": 0
+    },
+    "12": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Looking for cafes specifically\nJust the closest one(s)",
+      "extra_steps": 0
+    },
+    "13": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I need to rank them by number of orders\nTell me who's in fifth place",
+      "extra_steps": 0
+    },
+    "14": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only check the top 10 posts\nIf so, tell me the organizations involved",
+      "extra_steps": 0
+    },
+    "15": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I just need the zip code\nFor Chatham University specifically",
+      "extra_steps": 0
+    },
+    "16": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Optimize to minimize total travel time\nStart from the first location listed (MIT)",
+      "extra_steps": 0
+    },
+    "17": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only count ones with Pending status\nAmong all reviews in the system",
+      "extra_steps": 0
+    },
+    "18": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Walk for the first leg to Harvard\nThen drive from Harvard to the airport",
+      "extra_steps": 0
+    },
+    "19": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Starting from Homewood Suites Southpointe\nI'll be driving",
+      "extra_steps": 0
+    },
+    "20": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only US states please\nList all of them",
+      "extra_steps": 0
+    },
+    "21": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I need the grand total amount\nJust that specific invoice",
+      "extra_steps": 0
+    },
+    "22": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "What's the current status?\nWhen will it arrive?",
+      "extra_steps": 0
+    },
+    "23": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I'll be driving\nTo the top computer science school there",
+      "extra_steps": 0
+    },
+    "24": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Specifically a tea cafe\nAlso tell me the walking distance",
+      "extra_steps": 0
+    },
+    "25": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only show ones with specific labels\nLabels related to questions",
+      "extra_steps": 0
+    },
+    "26": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Break it down monthly from Jan to December\nUse MM:COUNT format",
+      "extra_steps": 0
+    },
+    "27": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only those who expressed dissatisfaction\nJust their names please",
+      "extra_steps": 0
+    },
+    "28": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I need the date of my first one\nJust that specific date",
+      "extra_steps": 0
+    },
+    "29": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's specifically bruxism\nSomething that could alleviate it",
+      "extra_steps": 0
+    },
+    "30": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Focus on positive feedback\nWhat are the specific reasons they like them?",
+      "extra_steps": 0
+    },
+    "31": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Looking for mouth guards specifically\nWhat's the price range?",
+      "extra_steps": 0
+    },
+    "32": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Looking for brands specifically\nWhich ones appear most frequently?",
+      "extra_steps": 0
+    },
+    "33": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only the most recent orders\nSpecifically 7 orders",
+      "extra_steps": 0
+    },
+    "34": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only by Eric and Kilian\nOn 1/3/2023 specifically",
+      "extra_steps": 0
+    },
+    "35": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "From the hometown of Joe Biden\nDriving time specifically",
+      "extra_steps": 0
+    },
+    "36": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only on food category\nFrom mid Jan to end of Jan 2023",
+      "extra_steps": 0
+    },
+    "37": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I need the color specifically\nThe ones from Feb 2023",
+      "extra_steps": 0
+    },
+    "38": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "By car\nThe minimum time",
+      "extra_steps": 0
+    },
+    "39": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only ones assigned to me\nShow all of them",
+      "extra_steps": 0
+    },
+    "40": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "All customers\nDisplay the full list",
+      "extra_steps": 0
+    },
+    "41": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It needs to fit all my cards\nI have 40 cards",
+      "extra_steps": 0
+    },
+    "42": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Focus on the criticisms\nExtract the relevant sentences",
+      "extra_steps": 0
+    },
+    "43": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only the ones with the most stars\nI need the full names",
+      "extra_steps": 0
+    },
+    "44": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It should have \"better\" in the title\nCheck if it's closed",
+      "extra_steps": 0
+    },
+    "45": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It has \"homepage content\" in the title\nTell me if it's closed",
+      "extra_steps": 0
+    },
+    "46": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only if it's complete\nI need the total cost",
+      "extra_steps": 0
+    },
+    "47": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Look at the last 4 of each\nCalculate the payment difference",
+      "extra_steps": 0
+    },
+    "48": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Just the most recent one\nI need the date",
+      "extra_steps": 0
+    },
+    "49": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only by kilian\nOn 3/5/2023",
+      "extra_steps": 0
+    },
+    "50": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The phone number is 8015551212\nI need both name and email",
+      "extra_steps": 0
+    },
+    "51": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Focus on negative feedback\nWhat are the key aspects they don't like?",
+      "extra_steps": 0
+    },
+    "52": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I need the walking distance\nOnly those within 5 minutes walk",
+      "extra_steps": 0
+    },
+    "53": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The nearest USPS specifically\nShow different transportation methods",
+      "extra_steps": 0
+    },
+    "54": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Specifically about brushes\nAll customer reviews",
+      "extra_steps": 0
+    },
+    "55": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I need the price range\nFor all their products",
+      "extra_steps": 0
+    },
+    "56": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only ones under delivery\nThe most recent order number",
+      "extra_steps": 0
+    },
+    "57": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It needs to be walkable\nWithin 20 minutes walk",
+      "extra_steps": 0
+    },
+    "58": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "For a market survey\nThe most expensive one",
+      "extra_steps": 0
+    },
+    "59": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The one most unhappy with the style\nI need their email address",
+      "extra_steps": 0
+    },
+    "60": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I need the coordinates\nIn DD format",
+      "extra_steps": 0
+    },
+    "61": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Just the phone number\nFor that specific hospital",
+      "extra_steps": 0
+    },
+    "62": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "All public ones\nShow the full list",
+      "extra_steps": 0
+    },
+    "63": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The RSS feed one\nMy personal token",
+      "extra_steps": 0
+    },
+    "64": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I want to bike there\nHow long would that take?",
+      "extra_steps": 0
+    },
+    "65": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Under a certain price\nThe budget is $30",
+      "extra_steps": 0
+    },
+    "66": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "For Nintendo Switch\nUse the term \"switch accessories\"",
+      "extra_steps": 0
+    },
+    "67": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The most recent models\nReleased between 2020-2021",
+      "extra_steps": 0
+    },
+    "68": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "With at least 15 card capacity\nThe least expensive option",
+      "extra_steps": 0
+    },
+    "69": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "By car\nTotal travel time",
+      "extra_steps": 0
+    },
+    "70": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The one with the most cancellations\nI need their name",
+      "extra_steps": 0
+    },
+    "71": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The best Python one\nUsing SSH",
+      "extra_steps": 0
+    },
+    "72": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only pending ones\nThe most recent one",
+      "extra_steps": 0
+    },
+    "73": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Rank by number of commits\nWho has the most?",
+      "extra_steps": 0
+    },
+    "74": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I need a phone number\nFor customer service",
+      "extra_steps": 0
+    },
+    "75": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Rank by number of commits, top 3\nJust their last names",
+      "extra_steps": 0
+    },
+    "76": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "For orders cancelled in 2022\nInclude shipping fee",
+      "extra_steps": 0
+    },
+    "77": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sort by price\nIn ascending order",
+      "extra_steps": 0
+    },
+    "78": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "At One Stop Market\nApply 20% discount for orders over $200",
+      "extra_steps": 0
+    },
+    "79": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "When was the last one?\nJust the date",
+      "extra_steps": 0
+    },
+    "80": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only in May 2023\nTotal count",
+      "extra_steps": 0
+    },
+    "81": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Besides myself\nShow their usernames",
+      "extra_steps": 0
+    },
+    "82": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sort by price\nDescending order",
+      "extra_steps": 0
+    },
+    "83": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Ones requiring review\nAssigned to me as reviewer",
+      "extra_steps": 0
+    },
+    "84": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Order numbers 170 and 189\nI need the statuses",
+      "extra_steps": 0
+    },
+    "85": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The closest CVS\nWalking distance",
+      "extra_steps": 0
+    },
+    "86": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Discounted ones\nShow all available",
+      "extra_steps": 0
+    },
+    "87": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "On the map\nShow the description page",
+      "extra_steps": 0
+    },
+    "88": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The Magento Blank theme\nShow the preview",
+      "extra_steps": 0
+    },
+    "89": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The 3rd generation model\nSummarize them",
+      "extra_steps": 0
+    },
+    "90": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Hotels specifically\nShow nearby options",
+      "extra_steps": 0
+    },
+    "91": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Looking for US Citizenship and Immigration Services\nThen walking distance from there to nearest Social Security Administration",
+      "extra_steps": 0
+    },
+    "92": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Looking for a Hyatt hotel specifically\nSupermarkets within 15mins driving from the hotel",
+      "extra_steps": 0
+    },
+    "93": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only complaints about quality\nJust their names",
+      "extra_steps": 0
+    },
+    "94": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The overall rating\nRound to nearest whole number",
+      "extra_steps": 0
+    },
+    "95": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only high ratings\n4 or 5 stars specifically",
+      "extra_steps": 0
+    },
+    "96": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The one related to color utility\nSay \"Good idea\"",
+      "extra_steps": 0
+    },
+    "97": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Change the bio\nSet it to \"Seeking SDE positions\"",
+      "extra_steps": 0
+    },
+    "98": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The newest post\nUpvote it",
+      "extra_steps": 0
+    },
+    "99": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Check if the author responded at the end\nReply \"Thank you\" if yes, otherwise remind with @",
+      "extra_steps": 0
+    },
+    "100": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Set my status\nTo \"Enjoying life\"",
+      "extra_steps": 0
+    },
+    "101": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Just the shirts\nMark them on sale",
+      "extra_steps": 0
+    },
+    "102": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Related to September 11th attacks\nWhere a plane crashed",
+      "extra_steps": 0
+    },
+    "103": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Compare per unit prices\nAdd the lowest one",
+      "extra_steps": 0
+    },
+    "104": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It was a makeup removal kit\nFrom summer 2022",
+      "extra_steps": 0
+    },
+    "105": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Set the homepage URL\nTo https://egg.tart.com",
+      "extra_steps": 0
+    },
+    "106": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's the Ryker Tee Crew Neck\nDisable it",
+      "extra_steps": 0
+    },
+    "107": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Reduce it\nBy $5",
+      "extra_steps": 0
+    },
+    "108": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Highlight positive reviews\nQuote the actual user comments",
+      "extra_steps": 0
+    },
+    "109": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Hawaiian Bamboo Orchid Roots\nThe one by Discount Hawaiian Gifts, #zc50",
+      "extra_steps": 0
+    },
+    "110": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Order 302\nCancel it",
+      "extra_steps": 0
+    },
+    "111": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Name it awesome_llm_reading\nKeep it empty",
+      "extra_steps": 0
+    },
+    "112": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's Vinta\nAs a guest",
+      "extra_steps": 0
+    },
+    "113": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The Home Page\nNew title: \"This is the home page!! Leave here!!\"",
+      "extra_steps": 0
+    },
+    "114": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sarah Miller's most recent pending order\nMessage: \"the order is ready to be shipped soon!\"",
+      "extra_steps": 0
+    },
+    "115": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Order #307 via DHL\nTracking number 24353446464",
+      "extra_steps": 0
+    },
+    "116": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Aeno capri products\nMark as out of stock",
+      "extra_steps": 0
+    },
+    "117": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The highest rated one\nBudget between $100 and $200",
+      "extra_steps": 0
+    },
+    "118": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Best rating with at least 5 reviews\nThe least expensive option meeting that criteria",
+      "extra_steps": 0
+    },
+    "119": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "A white one\nAdd it to wishlist",
+      "extra_steps": 0
+    },
+    "120": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "To my wishlist\nThis specific product",
+      "extra_steps": 0
+    },
+    "121": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "For OneStopMarket\nSubscribe to newsletter",
+      "extra_steps": 0
+    },
+    "122": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The most starred ones\nTop eight",
+      "extra_steps": 0
+    },
+    "123": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Phone screen protector from March 2023, broke after 3 days\nInclude order id, reason, and refund amount - don't submit",
+      "extra_steps": 0
+    },
+    "124": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Jakub Klinkovský, Koushik, and Vinta Chen\nAll three of them",
+      "extra_steps": 0
+    },
+    "125": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Order #299\nNew address: 456 Oak Avenue, New York, NY, 10001",
+      "extra_steps": 0
+    },
+    "126": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "A new color - blue\nFor sizes S and M",
+      "extra_steps": 0
+    },
+    "127": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Name it \"Do it myself\" with a README\nInclude the 8 most active DIY ideas",
+      "extra_steps": 0
+    },
+    "128": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Jakub Klinkovský and Benoît Blanchon\nAs collaborators",
+      "extra_steps": 0
+    },
+    "129": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "New address is 111 Magnolia Path\nAtlanta, GA, 30303",
+      "extra_steps": 0
+    },
+    "130": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "abisubramanya27 and lahwaacz\nAs maintainers",
+      "extra_steps": 0
+    },
+    "131": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Description: Welcome to the future\nSidebar: Games, Books, Movies, Future",
+      "extra_steps": 0
+    },
+    "132": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Open the thread\nSubscribe to the forum",
+      "extra_steps": 0
+    },
+    "133": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The question is \"is car necessary in NYC\"\nFind an appropriate subreddit for it",
+      "extra_steps": 0
+    },
+    "134": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Find a subreddit focused on gaming consoles\nAsk \"what is the recommended console to buy these days\"",
+      "extra_steps": 0
+    },
+    "135": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "About \"big little lies\"\nComment: \"can't stop it\"",
+      "extra_steps": 0
+    },
+    "136": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The costume contest image to funny subreddit\nNote \"from /f/pics\"",
+      "extra_steps": 0
+    },
+    "137": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "In a relevant subreddit\nAsk for opinions with \"your opinion\"",
+      "extra_steps": 0
+    },
+    "138": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "For running shoes\nBudget of $100",
+      "extra_steps": 0
+    },
+    "139": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "For Harry Potter enthusiasts\nOn July 8th, virtual",
+      "extra_steps": 0
+    },
+    "140": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "In books subreddit\nHow ML could help that field",
+      "extra_steps": 0
+    },
+    "141": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "To the post itself\nWith \"???\"",
+      "extra_steps": 0
+    },
+    "142": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "For the speaker from order #148, include SKU, broke after 3 days\nDon't submit yet",
+      "extra_steps": 0
+    },
+    "143": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "From redesign branch to master\nAssign Roshan Jossy as reviewer",
+      "extra_steps": 0
+    },
+    "144": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only 1 star reviews\nPost in games subreddit as \"real user feedback on Racing Wheel Overdrive for Xbox X\"",
+      "extra_steps": 0
+    },
+    "145": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Filter by status\nOnly canceled ones",
+      "extra_steps": 0
+    },
+    "146": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Related to chatGPT\nPost in a relevant subreddit",
+      "extra_steps": 0
+    },
+    "147": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "auth0/angular-storage to technology subreddit\nUse the repo's own description",
+      "extra_steps": 0
+    },
+    "148": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Requesting a coupon\nMy refund should be replaced by it",
+      "extra_steps": 0
+    },
+    "149": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "For last month\nToday is 3/15/2023",
+      "extra_steps": 0
+    },
+    "150": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Shipping report type\nFrom 08/05/2022 to 03/01/2023",
+      "extra_steps": 0
+    },
+    "151": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The top post ever\nThumbs down",
+      "extra_steps": 0
+    },
+    "152": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only by CameronKelsey\nAll of them",
+      "extra_steps": 0
+    },
+    "153": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "By AdamCannon\nDislike all of them",
+      "extra_steps": 0
+    },
+    "154": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Add a line to the body\nSay \"Every watch makes me feel like a kid again\"",
+      "extra_steps": 0
+    },
+    "155": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "To a sports stadium in Boston\nThe home NBA team's stadium",
+      "extra_steps": 0
+    },
+    "156": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Make it public\nAdd primer, convexegg, abishek as members",
+      "extra_steps": 0
+    },
+    "157": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Private with Android template\nAdd primer, convexegg, abishek as members",
+      "extra_steps": 0
+    },
+    "158": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The customer is Amanda Kim from my E-commerce\nInclude driving time",
+      "extra_steps": 0
+    },
+    "159": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "From Carnegie Music Hall in NYC\nDriving directions",
+      "extra_steps": 0
+    },
+    "160": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Blue color, size 33\nAdd 5 units",
+      "extra_steps": 0
+    },
+    "161": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Create folder 'car' with urls.txt\nLinks to 5 most recent posts from cars subreddit",
+      "extra_steps": 0
+    },
+    "162": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "My most recent order\nTo 77 Massachusetts Ave, Cambridge, MA",
+      "extra_steps": 0
+    },
+    "163": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Assign to myself\nDue date 2030-1-3",
+      "extra_steps": 0
+    },
+    "164": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The one about 404\nTo myself",
+      "extra_steps": 0
+    }
+  }
+}

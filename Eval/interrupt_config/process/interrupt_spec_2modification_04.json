@@ -1,0 +1,994 @@
+{
+  "tasks": {
+    "0": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant top-3, not top-5\nAlso, it should be Jan 2023, not Feb 2023",
+      "extra_steps": 0
+    },
+    "1": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Wait, I need international airports, not domestic airports\nAnd the radius should be 50 km, not 30 km",
+      "extra_steps": 0
+    },
+    "2": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Actually, I need reviews mentioning \"best\", not \"great\"\nJust to clarify, I'm looking for the term \"best\" specifically",
+      "extra_steps": 0
+    },
+    "3": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the starting point should be Randyland, not Phipps Conservatory\nAnd the destination is Carnegie Mellon University, not University of Pittsburgh",
+      "extra_steps": 0
+    },
+    "4": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant good fingerprint resistant, not poor screen protection\nTo be specific, I'm looking for mentions of 'good fingerprint resistant'",
+      "extra_steps": 0
+    },
+    "5": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Actually, I need the user who made the latest post, not the oldest\nAnd the forum should be Showerthoughts, not books",
+      "extra_steps": 0
+    },
+    "6": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant Pittsburgh Airport, not Philadelphia Airport\nAlso, I'm looking for a Hilton hotel, not Marriott",
+      "extra_steps": 0
+    },
+    "7": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I meant police station, not fire station\nAnd the time should be one hour, not 30 minutes",
+      "extra_steps": 0
+    },
+    "8": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Actually, I only need the top 3, not top 5\nPlease show just 3 search terms",
+      "extra_steps": 0
+    },
+    "9": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Wait, I meant my todos, not issues\nI want to see my todo list specifically",
+      "extra_steps": 0
+    },
+    "10": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: today's date is 6/12/2023, not 6/15/2023\nAnd I meant the past three days, not five days",
+      "extra_steps": 0
+    },
+    "11": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant Carnegie Museum of Art, not Natural History\nAnd I'm looking for a library at CMU, not a cafe",
+      "extra_steps": 0
+    },
+    "12": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Actually, I'm looking for a cafe, not a restaurant\nAnd the location should be CMU Hunt library, not Sorrells library",
+      "extra_steps": 0
+    },
+    "13": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need the fifth most, not third most\nPlease find the customer ranked fifth by order count",
+      "extra_steps": 0
+    },
+    "14": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I meant top 10 posts, not top 5\nAnd the forum should be \"books\", not \"movies\"",
+      "extra_steps": 0
+    },
+    "15": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Wait, I need the zip code for Chatham University, not Carnegie Mellon\nPlease look up Chatham University specifically",
+      "extra_steps": 0
+    },
+    "16": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, the first location should be Massachusetts Institute of Technology, not Harvard University\nThe correct order is MIT first, then Harvard, then the airport as the list",
+      "extra_steps": 0
+    },
+    "17": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need Pending reviews, not Approved reviews\nPlease count only the Pending status reviews",
+      "extra_steps": 0
+    },
+    "18": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need to walk first from MIT to Harvard, not drive\nAnd then drive to Boston Logan Airport, not walk",
+      "extra_steps": 0
+    },
+    "19": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: my hotel is Homewood Suites Southpointe, not Hilton Garden Inn\nAnd the destination is PPG Paints Arena, not Heinz Field",
+      "extra_steps": 0
+    },
+    "20": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant New Hampshire, not Vermont\nPlease tell me which states border New Hampshire",
+      "extra_steps": 0
+    },
+    "21": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Wait, the invoice number should be 000000002, not 000000005\nPlease look up invoice 000000002",
+      "extra_steps": 0
+    },
+    "22": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need info about my latest order, not oldest\nPlease check my most recent order",
+      "extra_steps": 0
+    },
+    "23": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, the starting point should be Carnegie Mellon University, not University of Pittsburgh\nAnd I'm looking for the top computer science school, not business school",
+      "extra_steps": 0
+    },
+    "24": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need a tea cafe, not a coffee shop\nAnd the location should be University of Pittsburgh, not Carnegie Mellon",
+      "extra_steps": 0
+    },
+    "25": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need issues labeled with questions, not bugs\nPlease filter by the question label",
+      "extra_steps": 0
+    },
+    "26": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the year should be 2022, not 2023\nI need the data for 2022",
+      "extra_steps": 0
+    },
+    "27": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant dissatisfaction, not satisfaction\nAnd the product is Chloe tank, not Zoe tank",
+      "extra_steps": 0
+    },
+    "28": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need my first purchase date, not last\nPlease find when I made my very first order",
+      "extra_steps": 0
+    },
+    "29": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, my problem is jaw bruxism, not back pain\nI need products for teeth grinding/jaw bruxism",
+      "extra_steps": 0
+    },
+    "30": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I want to know why customers like products, not dislike\nAnd the brand is Circe's, not Zoe's",
+      "extra_steps": 0
+    },
+    "31": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant teeth grinding mouth guard, not sleep apnea mask\nPlease search for mouth guards for teeth grinding",
+      "extra_steps": 0
+    },
+    "32": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I'm asking about brands, not products\nPlease identify which brands appear most in search terms",
+      "extra_steps": 0
+    },
+    "33": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need the count for 7 orders, not 10\nPlease check only the most recent 7 orders",
+      "extra_steps": 0
+    },
+    "34": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the repository is a11yproject, not ffmpeg-python\nAnd the date should be 1/3/2023, not 1/5/2023",
+      "extra_steps": 0
+    },
+    "35": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant Joe Biden's hometown, not Donald Trump's\nAnd the destination is Bridgeport, not Hartford",
+      "extra_steps": 0
+    },
+    "36": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the category is food, not electronics\nAnd the time period is mid Jan to end Jan 2023, not Feb",
+      "extra_steps": 0
+    },
+    "37": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need the color configuration, not size\nAnd I bought artificial plants in Feb 2023, not flowers in March",
+      "extra_steps": 0
+    },
+    "38": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the starting point is Animal Rescue League of Pittsburgh, not Pittsburgh Zoo\nAnd the destination is Schenley park, not Frick Park",
+      "extra_steps": 0
+    },
+    "39": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant merge requests, not issues\nPlease show merge requests assigned to me",
+      "extra_steps": 0
+    },
+    "40": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need to see customers, not orders\nPlease display the customer list",
+      "extra_steps": 0
+    },
+    "41": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need storage for 40 cards, not 20\nPlease find an option that holds at least 40 cards",
+      "extra_steps": 0
+    },
+    "42": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the criticisms, not praises\nPlease extract negative feedback and complaints",
+      "extra_steps": 0
+    },
+    "43": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant repositories with the most stars, not least\nPlease find my contributions with highest star count",
+      "extra_steps": 0
+    },
+    "44": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the latest updated issue, not oldest\nAnd the keyword should be \"better\", not \"best\"",
+      "extra_steps": 0
+    },
+    "45": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need the latest created issue, not oldest\nAnd the title should contain 'homepage content', not 'navigation menu'",
+      "extra_steps": 0
+    },
+    "46": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the complete order, not pending\nPlease find my latest order with complete status",
+      "extra_steps": 0
+    },
+    "47": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant 4 orders, not 6\nAnd I need cancelled orders, not pending orders",
+      "extra_steps": 0
+    },
+    "48": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the most recent order, not oldest\nAnd it should be cancelled order, not completed",
+      "extra_steps": 0
+    },
+    "49": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant kilian, not eric\nAnd the date should be 3/5/2023, not 3/10/2023",
+      "extra_steps": 0
+    },
+    "50": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the phone number is 8015551212, not 8025551212\nPlease search for 8015551212",
+      "extra_steps": 0
+    },
+    "51": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need what customers don't like, not what they like\nAnd the product is Circe ice fleece, not Zoe",
+      "extra_steps": 0
+    },
+    "52": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the destination is Gardner Steel Conference Center, not SEI\nAnd the time limit should be 5 minutes, not 10",
+      "extra_steps": 0
+    },
+    "53": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I'm at CMU Pittsburgh, not University of Pittsburgh\nAnd I need USPS postal office, not FedEx",
+      "extra_steps": 0
+    },
+    "54": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need reviews for brush, not lipstick\nAnd the brand is sephora, not maybelline",
+      "extra_steps": 0
+    },
+    "55": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, the brand should be EYZUTAK, not Samsung\nPlease look up EYZUTAK products",
+      "extra_steps": 0
+    },
+    "56": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the most recent order, not oldest\nAnd the status should be under delivery, not complete",
+      "extra_steps": 0
+    },
+    "57": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need a pharmacy, not grocery store\nAnd I'm starting from Carnegie Mellon with 20 min walk limit, not Pitt with 30 min",
+      "extra_steps": 0
+    },
+    "58": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the most expensive product, not cheapest\nAnd the category is competitive swimwear, not athletic shoes",
+      "extra_steps": 0
+    },
+    "59": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need the email address, not phone number\nAnd I'm looking for the most unhappy customer with Zoe products, not happy with Circe",
+      "extra_steps": 0
+    },
+    "60": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need Apple Store, not Microsoft Store\nAnd the location reference is near Pitt, not CMU",
+      "extra_steps": 0
+    },
+    "61": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need the phone number, not address\nAnd the hospital is Western Pennsylvania Hospital, not UPMC Presbyterian",
+      "extra_steps": 0
+    },
+    "62": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I want to see public projects, not private\nPlease show all public projects",
+      "extra_steps": 0
+    },
+    "63": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need my RSS feed token, not API token\nPlease find my RSS feed token specifically",
+      "extra_steps": 0
+    },
+    "64": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the closest national park, not state park, and to Vinalhaven ME, not Portland\nAnd I want to know biking time, not driving time",
+      "extra_steps": 0
+    },
+    "65": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, the price limit should be $30, not $50\nAnd the category is men shoes, not women shoes",
+      "extra_steps": 0
+    },
+    "66": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I want to search for switch accessories, not playstation\nPlease search for Nintendo Switch accessories",
+      "extra_steps": 0
+    },
+    "67": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need XBox controllers, not PlayStation\nAnd the years should be 2020-2021, not 2018-2019",
+      "extra_steps": 0
+    },
+    "68": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the least expensive option, not most expensive\nAnd the minimum capacity should be 15 cards, not 10",
+      "extra_steps": 0
+    },
+    "69": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, the destination should be Philadelphia, not Cleveland\nPlease check driving time to Philadelphia",
+      "extra_steps": 0
+    },
+    "70": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the name, not email\nAnd I'm looking for most cancellations, not most orders",
+      "extra_steps": 0
+    },
+    "71": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need the best GAN implementation, not CNN\nAnd I want the SSH clone command, not HTTPS",
+      "extra_steps": 0
+    },
+    "72": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need the most recent order, not oldest\nAnd the status should be pending, not complete",
+      "extra_steps": 0
+    },
+    "73": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need the contributor with the most commits, not least\nAnd the project is Pytorch GAN, not TensorFlow CNN",
+      "extra_steps": 0
+    },
+    "74": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need a phone number, not email\nAnd I'm looking for customer service contact, not technical support",
+      "extra_steps": 0
+    },
+    "75": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need last names, not first names, and top 3, not top 5\nAnd the repo is 2019-nCov, not covid-19-data",
+      "extra_steps": 0
+    },
+    "76": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the year should be 2022, not 2023\nAnd please include the shipping fee in the calculation",
+      "extra_steps": 0
+    },
+    "77": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I'm looking for chairs, not tables\nAnd I want ascending price order, not descending",
+      "extra_steps": 0
+    },
+    "78": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the month should be November 2022, not December\nAnd the discount is 20%, not 10%",
+      "extra_steps": 0
+    },
+    "79": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need my last order date, not first\nAnd the product is body butter, not body lotion",
+      "extra_steps": 0
+    },
+    "80": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the month should be May 2023, not June\nPlease check reviews for May 2023",
+      "extra_steps": 0
+    },
+    "81": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, the repo is gimmiethat.space, not a11yproject.com\nAnd I need usernames, not emails",
+      "extra_steps": 0
+    },
+    "82": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the category is living room furniture, not bedroom\nAnd I want descending price order, not ascending",
+      "extra_steps": 0
+    },
+    "83": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need merge requests, not issues\nPlease show merge requests where I'm the reviewer",
+      "extra_steps": 0
+    },
+    "84": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I need order statuses, not totals\nAnd the order numbers are 170 and 189, not 165 and 180",
+      "extra_steps": 0
+    },
+    "85": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, the starting point is Carnegie Mellon University and destination is CVS, not Pitt and Walgreens\nAnd I need walking distance, not driving",
+      "extra_steps": 0
+    },
+    "86": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I'm looking for discounted items, not new arrivals\nPlease find items that are on sale or discounted",
+      "extra_steps": 0
+    },
+    "87": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant Carnegie Music Hall, not Carnegie Library\nPlease show Carnegie Music Hall specifically",
+      "extra_steps": 0
+    },
+    "88": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the theme should be Magento Blank, not Luma\nPlease preview the Blank theme",
+      "extra_steps": 0
+    },
+    "89": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need reviews for Echo Dot, not Echo Show\nAnd it's the 3rd generation, please check Echo Dot 3rd gen",
+      "extra_steps": 0
+    },
+    "90": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I'm looking for hotels, not restaurants\nAnd the location is Carnegie Music Hall, not Carnegie Library",
+      "extra_steps": 0
+    },
+    "91": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I'm arriving at Carnegie Mellon University, not Pitt\nAnd I need USCIS and SSA offices, not DMV and Post Office",
+      "extra_steps": 0
+    },
+    "92": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I'm arriving at Pittsburgh Airport, not Philadelphia\nAnd I need a Hyatt hotel with supermarkets within 15 mins, not Marriott with 20 mins",
+      "extra_steps": 0
+    },
+    "93": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need customers who complain about quality, not praise design\nAnd the brand is EYZUTAK, not Samsung",
+      "extra_steps": 0
+    },
+    "94": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the product is Ugreen lightning to 3.5mm cable, not Anker USB-C to HDMI\nPlease look up the Ugreen cable specifically",
+      "extra_steps": 0
+    },
+    "95": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I need reviewers who gave 4 or 5 stars, not 1 or 2\nAnd the brand is EYZUTAK, not Samsung",
+      "extra_steps": 0
+    },
+    "96": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: the comment should be \"Good idea\", not \"Bad idea\"\nAnd it's for color utility in a11yproject.com, not font styling in ffmpeg-python",
+      "extra_steps": 0
+    },
+    "97": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, my bio should say \"Seeking SDE positions\", not \"Looking for PM roles\"\nPlease update it to exactly \"Seeking SDE positions\"",
+      "extra_steps": 0
+    },
+    "98": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Correction: I want to upvote, not downvote, and the newest post, not oldest\nAnd the subreddit is books, not movies",
+      "extra_steps": 0
+    },
+    "99": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, the merge request topic is verification functions, not authentication methods\nPlease find the merge request about verification functions",
+      "extra_steps": 0
+    },
+    "100": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Wait, I made a mistake. The status should be 'Enjoying life' not 'Working hard'.\nActually, that's all - just change it to 'Enjoying life' please.",
+      "extra_steps": 0
+    },
+    "101": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant Hollister not Nike.\nAlso it should be shirts, not pants.",
+      "extra_steps": 0
+    },
+    "102": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Actually it should be Pennsylvania, not New York.\nAnd I'm looking for where a plane crashed, not a building collapse.",
+      "extra_steps": 0
+    },
+    "103": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant lowest not highest.\nAnd I meant per unit price, not total price.",
+      "extra_steps": 0
+    },
+    "104": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Actually it was a make up removal kit, not skincare cream.\nAnd it was during summer 2022, not winter.",
+      "extra_steps": 0
+    },
+    "105": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Wait, the URL should be https://egg.tart.com\nnot https://apple.pie.com - please correct that.",
+      "extra_steps": 0
+    },
+    "106": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I meant Disable not Enable.\nAnd the product is Ryker Tee Crew Neck, not V Neck.",
+      "extra_steps": 0
+    },
+    "107": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Actually I want to Reduce the price, not Increase.\nAnd the amount should be $5, not $10.",
+      "extra_steps": 0
+    },
+    "108": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's Antonia Racer Tank, not Top.\nAnd I want positive reviews highlighted, not negative.",
+      "extra_steps": 0
+    },
+    "109": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The product name has '2' not '3' in it.\nAnd add to wish list, not shopping cart.",
+      "extra_steps": 0
+    },
+    "110": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I meant Cancel, not Ship.\nAnd the order number is 302, not 305.",
+      "extra_steps": 0
+    },
+    "111": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It should be empty with no README.\nAnd the name is awesome_llm_reading, not awesome_ml_papers.",
+      "extra_steps": 0
+    },
+    "112": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The name is Vinta, not Vincent.\nAnd the role should be guest, not developer.",
+      "extra_steps": 0
+    },
+    "113": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The page is 'Home Page' not 'About Us'.\nAnd the new title should be 'This is the home page!! Leave here!!'.",
+      "extra_steps": 0
+    },
+    "114": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The customer name is Sarah Miller, not Sarah Johnson.\nAnd the message should be 'the order is ready to be shipped soon!'",
+      "extra_steps": 0
+    },
+    "115": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The order number is #307 not #309.\nAnd it's DHL not FedEx.",
+      "extra_steps": 0
+    },
+    "116": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's Aeno capri, not shorts.\nAnd mark as out of stock, not in stock.",
+      "extra_steps": 0
+    },
+    "117": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The category is meat substitute, not vegan protein.\nAnd the budget is between 100 and 200.",
+      "extra_steps": 0
+    },
+    "118": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It should be Men's shoe category, not Women's.\nAnd at least 5 reviews, not 10.",
+      "extra_steps": 0
+    },
+    "119": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I meant white, not black.\nAnd it's a desk, not a table.",
+      "extra_steps": 0
+    },
+    "120": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Sorry, I meant wishlist not shopping cart.\nYes, just add it to my wishlist please.",
+      "extra_steps": 0
+    },
+    "121": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I want to Subscribe, not Unsubscribe.\nAnd it's OneStopMarket.",
+      "extra_steps": 0
+    },
+    "122": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I want to Star, not Fork.\nAnd it's eight repos, not five.",
+      "extra_steps": 0
+    },
+    "123": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It was a phone screen protector, not phone case.\nAnd I bought it in March 2023, not January.",
+      "extra_steps": 0
+    },
+    "124": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I want to Follow, not Unfollow.\nAnd the second person is Koushik, not Michael.",
+      "extra_steps": 0
+    },
+    "125": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The order number is #299, not #301.\nAnd the address is 456 Oak Avenue, not 789 Pine Street.",
+      "extra_steps": 0
+    },
+    "126": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The color should be blue, not red.\nAnd the sizes are S and M, not L and XL.",
+      "extra_steps": 0
+    },
+    "127": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The repo name should be 'Do it myself'.\nAnd it should include 8 DIY ideas, not 5.",
+      "extra_steps": 0
+    },
+    "128": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The second person is Benoît Blanchon, not Michael Smith.\nAnd the repo is gimmiethat.space.",
+      "extra_steps": 0
+    },
+    "129": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The street is 111 Magnolia Path, not 222 Oak Road.\nAnd the zip code is 30303, not 30305.",
+      "extra_steps": 0
+    },
+    "130": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The role should be maintainer, not developer.\nAnd the second user is lahwaacz, not primer.",
+      "extra_steps": 0
+    },
+    "131": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The forum name should be Cyberpunk, not SciFi.\nAnd the description is 'Welcome to the future'.",
+      "extra_steps": 0
+    },
+    "132": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The forum is 'machine learning', not 'deep learning'.\nAnd I want to subscribe, not unsubscribe.",
+      "extra_steps": 0
+    },
+    "133": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The question is about a car, not a bike.\nAnd the city is NYC, not LA.",
+      "extra_steps": 0
+    },
+    "134": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The topic is gaming consoles, not PC gaming.\nAnd the question is 'what is the recommended console to buy these days'.",
+      "extra_steps": 0
+    },
+    "135": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The book is 'big little lies', not 'gone girl'.\nAnd my comment is 'can't stop it'.",
+      "extra_steps": 0
+    },
+    "136": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's costume contest, not costume party.\nAnd post to funny subreddit, not humor.",
+      "extra_steps": 0
+    },
+    "137": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's about Iphone 14, not 15.\nAnd the prompt should be 'your opinion'.",
+      "extra_steps": 0
+    },
+    "138": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I'm looking for running shoes, not hiking boots.\nAnd the budget is $100, not $150.",
+      "extra_steps": 0
+    },
+    "139": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's for Harry Potter fans, not Lord of the Rings.\nAnd the date is July 8th, not August 15th.",
+      "extra_steps": 0
+    },
+    "140": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It should be in books subreddit, not movies.\nAnd specifically about machine learning, not AI in general.",
+      "extra_steps": 0
+    },
+    "141": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Reply to the post, not the top comment.\nAnd my comment is '???', not '!!!'.",
+      "extra_steps": 0
+    },
+    "142": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The product is a speaker, not headphones.\nAnd the order number is #148, not #150.",
+      "extra_steps": 0
+    },
+    "143": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The target branch is master, not develop.\nAnd the reviewer should be Roshan Jossy.",
+      "extra_steps": 0
+    },
+    "144": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I want 1 star reviews, not 5 star.\nAnd post in games subreddit, not technology.",
+      "extra_steps": 0
+    },
+    "145": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I want to Lookup, not Export.\nAnd the status is canceled, not pending.",
+      "extra_steps": 0
+    },
+    "146": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It should be GitLab, not GitHub.\nAnd the topic is chatGPT, not BERT.",
+      "extra_steps": 0
+    },
+    "147": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The repo is auth0/angular-storage, not angular-jwt.\nAnd post to technology subreddit, not programming.",
+      "extra_steps": 0
+    },
+    "148": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I'm asking for a coupon, not a discount.\nAnd the reason is that my refund is supposed to be replaced by a coupon.",
+      "extra_steps": 0
+    },
+    "149": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's a sales order report, not refund report.\nAnd for last month, not this month.",
+      "extra_steps": 0
+    },
+    "150": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It should be a shipping report, not sales.\nAnd the dates are 08/05/2022 to 03/01/2023.",
+      "extra_steps": 0
+    },
+    "151": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "I want to thumbs down, not up.\nAnd the subreddit is gadgets, not technology.",
+      "extra_steps": 0
+    },
+    "152": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The user is CameronKelsey, not JohnSmith.\nAnd the subreddit is earthporn, not nature.",
+      "extra_steps": 0
+    },
+    "153": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The user is AdamCannon, not JohnDoe.\nAnd the subreddit is UpliftingNews, not news.",
+      "extra_steps": 0
+    },
+    "154": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It's Star Trek Starfleet Academy series, not Star Wars.\nAnd the line should be 'Every watch makes me feel like a kid again'.",
+      "extra_steps": 0
+    },
+    "155": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Starting from Carnegie Mellon University, not MIT.\nAnd it's the Boston home NBA team, not LA.",
+      "extra_steps": 0
+    },
+    "156": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "It should be public, not private.\nAnd the third member is abishek, not mike.",
+      "extra_steps": 0
+    },
+    "157": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The project name is web_agent_android_xl.\nAnd use Android template, not iOS.",
+      "extra_steps": 0
+    },
+    "158": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Starting from Allentown, PA, not Philadelphia.\nAnd the customer is Amanda Kim, not Amanda Lee.",
+      "extra_steps": 0
+    },
+    "159": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The destination is Carnegie Mellon University, not University of Pittsburgh.\nAnd using driving options, not walking.",
+      "extra_steps": 0
+    },
+    "160": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "Only 5 arrived, not 10.\nAnd the size is 33, not 32.",
+      "extra_steps": 0
+    },
+    "161": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The folder name should be car, not vehicles.\nAnd include 5 posts, not 10.",
+      "extra_steps": 0
+    },
+    "162": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The address is 77 Massachusetts Ave, not 100 Harvard St.\nAnd it's Cambridge, not Boston.",
+      "extra_steps": 0
+    },
+    "163": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The title should be '404 for many URLs'.\nAnd the due date is 2030-1-3, not 2030-2-15.",
+      "extra_steps": 0
+    },
+    "164": {
+      "interrupt_at_pct": "40%",
+      "update_mode": "append",
+      "update_intent": "The issue is about 404, not accessibility.\nAnd assign to myself, not the team lead.",
+      "extra_steps": 0
+    }
+  }
+}
